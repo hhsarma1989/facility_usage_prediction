@@ -1,0 +1,641 @@
+record_ref,resident_ref,predicted_facility,actual_facility,facility_match,predicted_day,actual_day,day_match,predicted_hour,actual_hour,hour_match,predicted_notification_timing,actual_notification_time,notification_within_24h,predicted_lead_hours,actual_lead_hours,notification_lead_error_hours,outputs_matched,all_outputs_match
+B-02561,R-006,Pool,Pool,True,Fri,Fri,True,06:00,10:45,False,8h before use,2025-10-17T02:45,True,8,8.0,0.0,3 of 4,False
+B-02562,R-055,Multipurpose Hall,Multipurpose Hall,True,Fri,Fri,True,09:00,09:00,True,2h before use,2025-10-17T07:00,True,2,2.0,0.0,4 of 4,True
+B-02563,R-047,Pool,Pool,True,Fri,Fri,True,06:00,17:00,False,8h before use,2025-10-17T09:00,True,8,8.0,0.0,3 of 4,False
+B-02564,R-081,Pool,Pool,True,Fri,Fri,True,17:00,17:30,True,8h before use,2025-10-17T09:30,True,8,8.0,0.0,4 of 4,True
+B-02565,R-027,Badminton,Badminton,True,Fri,Fri,True,21:00,21:00,True,8h before use,2025-10-17T13:00,True,8,8.0,0.0,4 of 4,True
+B-02566,R-027,Badminton,Badminton,True,Fri,Fri,True,21:00,21:15,True,8h before use,2025-10-17T13:15,True,8,8.0,0.0,4 of 4,True
+B-02567,R-028,Pool,Gym,False,Sat,Sat,True,20:00,20:00,True,30h before use,2025-10-17T14:00,True,30,30.0,0.0,3 of 4,False
+B-02568,R-117,Clubhouse,Gym,False,Mon,Sun,False,16:00,16:45,True,48h before use,2025-10-17T16:45,True,48,48.0,0.0,2 of 4,False
+B-02569,R-002,Gym,Gym,True,Sun,Mon,False,19:00,17:15,False,72h before use,2025-10-17T17:15,True,72,72.0,0.0,2 of 4,False
+B-02570,R-004,Clubhouse,Multipurpose Hall,False,Thu,Sun,False,10:00,18:00,False,48h before use,2025-10-17T18:00,True,48,48.0,0.0,1 of 4,False
+B-02571,R-024,Pool,Pool,True,Wed,Tue,False,18:00,18:00,True,72h before use,2025-10-17T18:00,True,72,96.0,24.0,3 of 4,False
+B-02572,R-043,Pool,Gym,False,Mon,Sun,False,16:00,18:30,False,48h before use,2025-10-17T18:30,True,48,48.0,0.0,1 of 4,False
+B-02573,R-011,Badminton,Badminton,True,Fri,Sat,False,08:00,08:15,True,72h before use,2025-10-17T20:15,False,72,12.0,60.0,2 of 4,False
+B-02574,R-056,Badminton,Pool,False,Sun,Sun,True,06:00,06:00,True,30h before use,2025-10-18T00:00,True,30,30.0,0.0,3 of 4,False
+B-02575,R-084,Gym,Multipurpose Hall,False,Tue,Sat,False,10:00,18:45,False,18h before use,2025-10-18T00:45,True,18,18.0,0.0,1 of 4,False
+B-02576,R-035,Gym,Gym,True,Sat,Sat,True,09:00,09:00,True,8h before use,2025-10-18T01:00,True,8,8.0,0.0,4 of 4,True
+B-02577,R-010,Gym,Gym,True,Mon,Mon,True,19:00,19:00,True,30h before use,2025-10-18T07:00,False,30,60.0,30.0,3 of 4,False
+B-02578,R-127,Badminton,Badminton,True,Mon,Mon,True,16:00,07:45,False,48h before use,2025-10-18T07:45,True,48,48.0,0.0,3 of 4,False
+B-02579,R-007,Clubhouse,Clubhouse,True,Tue,Tue,True,08:00,08:00,True,72h before use,2025-10-18T08:00,True,72,72.0,0.0,4 of 4,True
+B-02580,R-075,Gym,Gym,True,Tue,Tue,True,08:00,09:00,False,72h before use,2025-10-18T09:00,True,72,72.0,0.0,3 of 4,False
+B-02581,R-041,Pool,Pool,True,Sun,Sun,True,09:00,09:00,True,18h before use,2025-10-18T15:00,True,18,18.0,0.0,4 of 4,True
+B-02582,R-026,Gym,Gym,True,Sat,Sat,True,18:00,18:00,True,2h before use,2025-10-18T16:00,True,2,2.0,0.0,4 of 4,True
+B-02583,R-001,Pool,Pool,True,Sun,Sun,True,10:00,10:30,True,18h before use,2025-10-18T16:30,True,18,18.0,0.0,4 of 4,True
+B-02584,R-041,Pool,Pool,True,Sun,Sun,True,09:00,09:45,True,18h before use,2025-10-19T08:45,True,18,1.0,17.0,4 of 4,True
+B-02585,R-041,Pool,Pool,True,Sun,Sun,True,09:00,19:15,False,18h before use,2025-10-19T15:15,True,18,4.0,14.0,3 of 4,False
+B-02586,R-118,Badminton,Badminton,True,Sun,Sun,True,17:00,17:30,True,2h before use,2025-10-19T15:30,True,2,2.0,0.0,4 of 4,True
+B-02587,R-025,Gym,Clubhouse,False,Tue,Sun,False,10:00,17:15,False,18h before use,2025-10-19T16:15,True,18,1.0,17.0,1 of 4,False
+B-02588,R-018,Gym,Gym,True,Mon,Mon,True,10:00,10:00,True,8h before use,2025-10-20T02:00,True,8,8.0,0.0,4 of 4,True
+B-02589,R-129,Clubhouse,Clubhouse,True,Mon,Mon,True,19:00,08:45,False,72h before use,2025-10-20T04:45,False,72,4.0,68.0,2 of 4,False
+B-02590,R-011,Badminton,Badminton,True,Fri,Fri,True,08:00,08:30,True,72h before use,2025-10-20T08:30,True,72,96.0,24.0,4 of 4,True
+B-02591,R-124,Gym,Gym,True,Tue,Thu,False,10:00,10:30,True,72h before use,2025-10-20T10:30,True,72,72.0,0.0,3 of 4,False
+B-02592,R-099,Multipurpose Hall,Multipurpose Hall,True,Thu,Thu,True,18:00,18:15,True,72h before use,2025-10-20T18:15,True,72,72.0,0.0,4 of 4,True
+B-02593,R-006,Pool,Pool,True,Fri,Tue,False,06:00,06:15,True,8h before use,2025-10-20T22:15,True,8,8.0,0.0,3 of 4,False
+B-02594,R-011,Badminton,Badminton,True,Fri,Fri,True,08:00,08:00,True,72h before use,2025-10-21T08:00,True,72,72.0,0.0,4 of 4,True
+B-02595,R-004,Clubhouse,Clubhouse,True,Thu,Thu,True,10:00,09:00,False,48h before use,2025-10-21T09:00,True,48,48.0,0.0,3 of 4,False
+B-02596,R-004,Clubhouse,Clubhouse,True,Thu,Thu,True,10:00,10:00,True,48h before use,2025-10-21T10:00,True,48,48.0,0.0,4 of 4,True
+B-02597,R-082,Gym,Pool,False,Wed,Wed,True,07:00,10:30,False,24h before use,2025-10-21T16:30,True,24,18.0,6.0,2 of 4,False
+B-02598,R-004,Clubhouse,Clubhouse,True,Thu,Thu,True,10:00,21:00,False,48h before use,2025-10-21T21:00,True,48,48.0,0.0,3 of 4,False
+B-02599,R-003,Gym,Gym,True,Mon,Thu,False,09:00,09:45,True,30h before use,2025-10-22T03:45,True,30,30.0,0.0,3 of 4,False
+B-02600,R-136,Clubhouse,Clubhouse,True,Thu,Thu,True,19:00,19:00,True,30h before use,2025-10-22T13:00,True,30,30.0,0.0,4 of 4,True
+B-02601,R-125,Gym,Gym,True,Fri,Fri,True,16:00,21:30,False,48h before use,2025-10-22T21:30,True,48,48.0,0.0,3 of 4,False
+B-02602,R-057,Pool,Multipurpose Hall,False,Sun,Sun,True,09:00,07:45,False,72h before use,2025-10-23T07:45,True,72,72.0,0.0,2 of 4,False
+B-02603,R-029,Gym,Gym,True,Wed,Sun,False,08:00,08:45,True,72h before use,2025-10-23T08:45,True,72,72.0,0.0,3 of 4,False
+B-02604,R-002,Gym,Gym,True,Sun,Sun,True,19:00,10:45,False,72h before use,2025-10-23T10:45,True,72,72.0,0.0,3 of 4,False
+B-02605,R-046,Pool,Pool,True,Thu,Thu,True,20:00,20:00,True,2h before use,2025-10-23T18:00,True,2,2.0,0.0,4 of 4,True
+B-02606,R-030,Gym,Gym,True,Tue,Fri,False,06:00,06:00,True,48h before use,2025-10-23T18:00,False,48,12.0,36.0,2 of 4,False
+B-02607,R-032,Gym,Gym,True,Thu,Sun,False,07:00,07:15,True,72h before use,2025-10-23T19:15,True,72,60.0,12.0,3 of 4,False
+B-02608,R-005,Clubhouse,Multipurpose Hall,False,Sat,Sun,False,21:00,20:00,False,72h before use,2025-10-23T20:00,True,72,72.0,0.0,1 of 4,False
+B-02609,R-006,Pool,Pool,True,Fri,Fri,True,06:00,06:00,True,8h before use,2025-10-23T22:00,True,8,8.0,0.0,4 of 4,True
+B-02610,R-084,Gym,Gym,True,Tue,Fri,False,10:00,20:30,False,18h before use,2025-10-24T02:30,True,18,18.0,0.0,2 of 4,False
+B-02611,R-003,Gym,Pool,False,Mon,Sat,False,09:00,09:30,True,30h before use,2025-10-24T03:30,True,30,30.0,0.0,2 of 4,False
+B-02612,R-055,Multipurpose Hall,Pool,False,Fri,Fri,True,09:00,09:00,True,2h before use,2025-10-24T07:00,True,2,2.0,0.0,3 of 4,False
+B-02613,R-090,Pool,Pool,True,Sat,Sat,True,09:00,09:45,True,18h before use,2025-10-24T15:45,True,18,18.0,0.0,4 of 4,True
+B-02614,R-056,Badminton,Multipurpose Hall,False,Sun,Fri,False,06:00,17:30,False,30h before use,2025-10-24T16:30,False,30,1.0,29.0,0 of 4,False
+B-02615,R-007,Clubhouse,Clubhouse,True,Tue,Tue,True,08:00,21:45,False,72h before use,2025-10-24T21:45,True,72,96.0,24.0,3 of 4,False
+B-02616,R-070,Gym,Gym,True,Wed,Sun,False,07:00,07:30,True,30h before use,2025-10-25T01:30,True,30,30.0,0.0,3 of 4,False
+B-02617,R-067,Gym,Gym,True,Tue,Tue,True,07:00,07:00,True,72h before use,2025-10-25T07:00,True,72,72.0,0.0,4 of 4,True
+B-02618,R-108,Pool,Pool,True,Mon,Mon,True,10:00,10:00,True,48h before use,2025-10-25T10:00,True,48,48.0,0.0,4 of 4,True
+B-02619,R-028,Pool,Badminton,False,Sat,Sun,False,20:00,20:30,True,30h before use,2025-10-25T14:30,True,30,30.0,0.0,2 of 4,False
+B-02620,R-092,Gym,Clubhouse,False,Sat,Sun,False,21:00,21:00,True,30h before use,2025-10-25T15:00,True,30,30.0,0.0,2 of 4,False
+B-02621,R-026,Gym,Gym,True,Sat,Sat,True,18:00,18:00,True,2h before use,2025-10-25T16:00,True,2,2.0,0.0,4 of 4,True
+B-02622,R-001,Pool,Pool,True,Sun,Sun,True,10:00,10:00,True,18h before use,2025-10-25T16:00,True,18,18.0,0.0,4 of 4,True
+B-02623,R-043,Pool,Clubhouse,False,Mon,Mon,True,16:00,16:00,True,48h before use,2025-10-25T16:00,True,48,48.0,0.0,3 of 4,False
+B-02624,R-127,Badminton,Badminton,True,Mon,Mon,True,16:00,16:00,True,48h before use,2025-10-25T16:00,True,48,48.0,0.0,4 of 4,True
+B-02625,R-026,Gym,Gym,True,Sat,Sat,True,18:00,18:30,True,2h before use,2025-10-25T16:30,True,2,2.0,0.0,4 of 4,True
+B-02626,R-117,Clubhouse,Clubhouse,True,Mon,Mon,True,16:00,16:45,True,48h before use,2025-10-25T16:45,True,48,48.0,0.0,4 of 4,True
+B-02627,R-101,Gym,Badminton,False,Thu,Sun,False,17:00,18:30,False,30h before use,2025-10-25T18:30,True,30,24.0,6.0,1 of 4,False
+B-02628,R-083,Gym,Gym,True,Sun,Sun,True,18:00,16:45,False,18h before use,2025-10-25T22:45,True,18,18.0,0.0,3 of 4,False
+B-02629,R-001,Pool,Pool,True,Sun,Sun,True,10:00,18:00,False,18h before use,2025-10-26T00:00,True,18,18.0,0.0,3 of 4,False
+B-02630,R-012,Clubhouse,Clubhouse,True,Sun,Sun,True,19:00,19:00,True,18h before use,2025-10-26T01:00,True,18,18.0,0.0,4 of 4,True
+B-02631,R-001,Pool,Badminton,False,Sun,Sun,True,10:00,20:45,False,18h before use,2025-10-26T02:45,True,18,18.0,0.0,2 of 4,False
+B-02632,R-081,Pool,Gym,False,Fri,Sun,False,17:00,18:30,False,8h before use,2025-10-26T06:30,True,8,12.0,4.0,1 of 4,False
+B-02633,R-012,Clubhouse,Clubhouse,True,Sun,Sun,True,19:00,19:00,True,18h before use,2025-10-26T07:00,True,18,12.0,6.0,4 of 4,True
+B-02634,R-012,Clubhouse,Clubhouse,True,Sun,Tue,False,19:00,19:15,True,18h before use,2025-10-26T07:15,False,18,60.0,42.0,2 of 4,False
+B-02635,R-016,Clubhouse,Clubhouse,True,Tue,Tue,True,07:00,07:30,True,48h before use,2025-10-26T07:30,True,48,48.0,0.0,4 of 4,True
+B-02636,R-014,Clubhouse,Clubhouse,True,Sat,Sun,False,16:00,10:00,False,2h before use,2025-10-26T08:00,True,2,2.0,0.0,2 of 4,False
+B-02637,R-010,Gym,Gym,True,Mon,Mon,True,19:00,19:15,True,30h before use,2025-10-26T13:15,True,30,30.0,0.0,4 of 4,True
+B-02638,R-008,Pool,Pool,True,Sun,Sun,True,21:00,21:45,True,8h before use,2025-10-26T13:45,True,8,8.0,0.0,4 of 4,True
+B-02639,R-063,Gym,Gym,True,Sat,Sun,False,06:00,18:00,False,72h before use,2025-10-26T14:00,False,72,4.0,68.0,1 of 4,False
+B-02640,R-034,Multipurpose Hall,Clubhouse,False,Thu,Tue,False,07:00,18:45,False,48h before use,2025-10-26T18:45,True,48,48.0,0.0,1 of 4,False
+B-02641,R-103,Multipurpose Hall,Multipurpose Hall,True,Tue,Tue,True,08:00,08:15,True,30h before use,2025-10-27T02:15,True,30,30.0,0.0,4 of 4,True
+B-02642,R-018,Gym,Gym,True,Mon,Mon,True,10:00,10:30,True,8h before use,2025-10-27T02:30,True,8,8.0,0.0,4 of 4,True
+B-02643,R-031,Gym,Gym,True,Wed,Wed,True,06:00,17:15,False,2h before use,2025-10-27T05:15,False,2,60.0,58.0,2 of 4,False
+B-02644,R-023,Gym,Gym,True,Mon,Mon,True,16:00,16:15,True,2h before use,2025-10-27T14:15,True,2,2.0,0.0,4 of 4,True
+B-02645,R-022,Gym,Gym,True,Fri,Tue,False,20:00,08:45,False,24h before use,2025-10-27T14:45,True,24,18.0,6.0,2 of 4,False
+B-02646,R-003,Gym,Clubhouse,False,Mon,Tue,False,09:00,21:00,False,30h before use,2025-10-27T15:00,True,30,30.0,0.0,1 of 4,False
+B-02647,R-015,Multipurpose Hall,Gym,False,Wed,Mon,False,20:00,18:00,False,2h before use,2025-10-27T16:00,True,2,2.0,0.0,1 of 4,False
+B-02648,R-095,Gym,Pool,False,Tue,Tue,True,16:00,16:00,True,72h before use,2025-10-27T16:00,False,72,24.0,48.0,2 of 4,False
+B-02649,R-053,Gym,Clubhouse,False,Fri,Thu,False,21:00,18:00,False,72h before use,2025-10-27T18:00,True,72,72.0,0.0,1 of 4,False
+B-02650,R-122,Clubhouse,Clubhouse,True,Mon,Mon,True,21:00,21:15,True,18h before use,2025-10-27T20:15,True,18,1.0,17.0,4 of 4,True
+B-02651,R-016,Clubhouse,Clubhouse,True,Tue,Thu,False,07:00,06:30,False,48h before use,2025-10-28T06:30,True,48,48.0,0.0,2 of 4,False
+B-02652,R-109,Badminton,Badminton,True,Fri,Fri,True,10:00,09:15,False,72h before use,2025-10-28T09:15,True,72,72.0,0.0,3 of 4,False
+B-02653,R-020,Pool,Pool,True,Tue,Fri,False,10:00,10:45,True,72h before use,2025-10-28T10:45,True,72,72.0,0.0,3 of 4,False
+B-02654,R-072,Badminton,Multipurpose Hall,False,Tue,Thu,False,21:00,18:15,False,48h before use,2025-10-28T18:15,True,48,48.0,0.0,1 of 4,False
+B-02655,R-037,Clubhouse,Clubhouse,True,Mon,Thu,False,18:00,20:15,False,48h before use,2025-10-28T20:15,True,48,48.0,0.0,2 of 4,False
+B-02656,R-058,Gym,Gym,True,Thu,Thu,True,07:00,07:00,True,30h before use,2025-10-29T01:00,True,30,30.0,0.0,4 of 4,True
+B-02657,R-031,Gym,Gym,True,Wed,Wed,True,06:00,10:00,False,2h before use,2025-10-29T06:00,True,2,4.0,2.0,3 of 4,False
+B-02658,R-021,Gym,Gym,True,Wed,Wed,True,16:00,16:00,True,8h before use,2025-10-29T08:00,True,8,8.0,0.0,4 of 4,True
+B-02659,R-044,Gym,Gym,True,Fri,Fri,True,09:00,09:15,True,48h before use,2025-10-29T09:15,True,48,48.0,0.0,4 of 4,True
+B-02660,R-113,Gym,Gym,True,Wed,Wed,True,18:00,18:00,True,8h before use,2025-10-29T10:00,True,8,8.0,0.0,4 of 4,True
+B-02661,R-115,Gym,Gym,True,Tue,Thu,False,16:00,16:45,True,30h before use,2025-10-29T10:45,True,30,30.0,0.0,3 of 4,False
+B-02662,R-100,Gym,Gym,True,Sun,Thu,False,17:00,17:30,True,30h before use,2025-10-29T11:30,True,30,30.0,0.0,3 of 4,False
+B-02663,R-036,Pool,Pool,True,Wed,Wed,True,20:00,20:15,True,8h before use,2025-10-29T12:15,True,8,8.0,0.0,4 of 4,True
+B-02664,R-015,Multipurpose Hall,Gym,False,Wed,Wed,True,20:00,20:00,True,2h before use,2025-10-29T18:00,True,2,2.0,0.0,3 of 4,False
+B-02665,R-015,Multipurpose Hall,Pool,False,Wed,Wed,True,20:00,20:30,True,2h before use,2025-10-29T18:30,True,2,2.0,0.0,3 of 4,False
+B-02666,R-005,Clubhouse,Multipurpose Hall,False,Sat,Sat,True,21:00,21:00,True,72h before use,2025-10-29T21:00,True,72,72.0,0.0,3 of 4,False
+B-02667,R-121,Pool,Pool,True,Sat,Sat,True,09:00,06:30,False,48h before use,2025-10-30T06:30,True,48,48.0,0.0,3 of 4,False
+B-02668,R-006,Pool,Pool,True,Fri,Fri,True,06:00,06:45,True,8h before use,2025-10-30T06:45,True,8,24.0,16.0,4 of 4,True
+B-02669,R-041,Pool,Pool,True,Sun,Sun,True,09:00,09:00,True,18h before use,2025-10-30T21:00,False,18,60.0,42.0,3 of 4,False
+B-02670,R-047,Pool,Pool,True,Fri,Fri,True,06:00,06:00,True,8h before use,2025-10-30T22:00,True,8,8.0,0.0,4 of 4,True
+B-02671,R-006,Pool,Pool,True,Fri,Fri,True,06:00,06:30,True,8h before use,2025-10-30T22:30,True,8,8.0,0.0,4 of 4,True
+B-02672,R-070,Gym,Clubhouse,False,Wed,Sat,False,07:00,07:15,True,30h before use,2025-10-31T01:15,True,30,30.0,0.0,2 of 4,False
+B-02673,R-022,Gym,Multipurpose Hall,False,Fri,Fri,True,20:00,20:45,True,24h before use,2025-10-31T02:45,True,24,18.0,6.0,3 of 4,False
+B-02674,R-120,Gym,Gym,True,Mon,Mon,True,21:00,06:30,False,72h before use,2025-10-31T06:30,True,72,72.0,0.0,3 of 4,False
+B-02675,R-055,Multipurpose Hall,Multipurpose Hall,True,Fri,Fri,True,09:00,09:30,True,2h before use,2025-10-31T07:30,True,2,2.0,0.0,4 of 4,True
+B-02676,R-027,Badminton,Badminton,True,Fri,Fri,True,21:00,21:45,True,8h before use,2025-10-31T13:45,True,8,8.0,0.0,4 of 4,True
+B-02677,R-054,Gym,Pool,False,Mon,Mon,True,18:00,18:45,True,72h before use,2025-10-31T18:45,True,72,72.0,0.0,3 of 4,False
+B-02678,R-048,Multipurpose Hall,Multipurpose Hall,True,Sat,Sat,True,19:00,06:30,False,8h before use,2025-10-31T22:30,True,8,8.0,0.0,3 of 4,False
+B-02679,R-004,Clubhouse,Clubhouse,True,Thu,Mon,False,10:00,10:45,True,48h before use,2025-10-31T22:45,True,48,60.0,12.0,3 of 4,False
+B-02680,R-094,Gym,Gym,True,Sun,Sun,True,08:00,08:15,True,30h before use,2025-11-01T02:15,True,30,30.0,0.0,4 of 4,True
+B-02681,R-007,Clubhouse,Clubhouse,True,Tue,Tue,True,08:00,08:00,True,72h before use,2025-11-01T08:00,True,72,72.0,0.0,4 of 4,True
+B-02682,R-124,Gym,Gym,True,Tue,Tue,True,10:00,10:00,True,72h before use,2025-11-01T10:00,True,72,72.0,0.0,4 of 4,True
+B-02683,R-020,Pool,Pool,True,Tue,Tue,True,10:00,10:15,True,72h before use,2025-11-01T10:15,True,72,72.0,0.0,4 of 4,True
+B-02684,R-082,Gym,Gym,True,Wed,Sun,False,07:00,07:00,True,24h before use,2025-11-01T13:00,True,24,18.0,6.0,3 of 4,False
+B-02685,R-015,Multipurpose Hall,Multipurpose Hall,True,Wed,Sat,False,20:00,17:00,False,2h before use,2025-11-01T15:00,True,2,2.0,0.0,2 of 4,False
+B-02686,R-001,Pool,Pool,True,Sun,Sun,True,10:00,10:45,True,18h before use,2025-11-01T16:45,True,18,18.0,0.0,4 of 4,True
+B-02687,R-013,Gym,Gym,True,Wed,Sat,False,20:00,20:15,True,2h before use,2025-11-01T18:15,True,2,2.0,0.0,3 of 4,False
+B-02688,R-017,Gym,Gym,True,Tue,Sun,False,19:00,18:15,False,18h before use,2025-11-01T18:15,True,18,24.0,6.0,2 of 4,False
+B-02689,R-076,Gym,Gym,True,Tue,Tue,True,17:00,09:00,False,48h before use,2025-11-01T21:00,True,48,60.0,12.0,3 of 4,False
+B-02690,R-096,Clubhouse,Clubhouse,True,Tue,Tue,True,09:00,21:00,False,72h before use,2025-11-01T21:00,True,72,72.0,0.0,3 of 4,False
+B-02691,R-083,Gym,Gym,True,Sun,Sun,True,18:00,18:00,True,18h before use,2025-11-02T00:00,True,18,18.0,0.0,4 of 4,True
+B-02692,R-003,Gym,Pool,False,Mon,Mon,True,09:00,09:45,True,30h before use,2025-11-02T03:45,True,30,30.0,0.0,3 of 4,False
+B-02693,R-010,Gym,Gym,True,Mon,Mon,True,19:00,16:45,False,30h before use,2025-11-02T10:45,True,30,30.0,0.0,3 of 4,False
+B-02694,R-008,Pool,Gym,False,Sun,Sun,True,21:00,21:00,True,8h before use,2025-11-02T13:00,True,8,8.0,0.0,3 of 4,False
+B-02695,R-008,Pool,Pool,True,Sun,Sun,True,21:00,21:00,True,8h before use,2025-11-02T13:00,True,8,8.0,0.0,4 of 4,True
+B-02696,R-010,Gym,Gym,True,Mon,Mon,True,19:00,19:00,True,30h before use,2025-11-02T13:00,True,30,30.0,0.0,4 of 4,True
+B-02697,R-039,Pool,Gym,False,Sat,Sun,False,18:00,18:00,True,2h before use,2025-11-02T16:00,True,2,2.0,0.0,2 of 4,False
+B-02698,R-008,Pool,Pool,True,Sun,Sun,True,21:00,21:30,True,8h before use,2025-11-02T17:30,True,8,4.0,4.0,4 of 4,True
+B-02699,R-018,Gym,Pool,False,Mon,Mon,True,10:00,10:00,True,8h before use,2025-11-03T02:00,True,8,8.0,0.0,3 of 4,False
+B-02700,R-018,Gym,Gym,True,Mon,Mon,True,10:00,10:45,True,8h before use,2025-11-03T02:45,True,8,8.0,0.0,4 of 4,True
+B-02701,R-003,Gym,Gym,True,Mon,Mon,True,09:00,09:30,True,30h before use,2025-11-03T05:30,False,30,4.0,26.0,3 of 4,False
+B-02702,R-085,Gym,Gym,True,Wed,Wed,True,20:00,07:30,False,48h before use,2025-11-03T07:30,True,48,48.0,0.0,3 of 4,False
+B-02703,R-007,Clubhouse,Clubhouse,True,Tue,Thu,False,08:00,08:15,True,72h before use,2025-11-03T08:15,True,72,72.0,0.0,3 of 4,False
+B-02704,R-009,Gym,Gym,True,Mon,Mon,True,21:00,17:00,False,2h before use,2025-11-03T15:00,True,2,2.0,0.0,3 of 4,False
+B-02705,R-025,Gym,Gym,True,Tue,Tue,True,10:00,10:00,True,18h before use,2025-11-03T16:00,True,18,18.0,0.0,4 of 4,True
+B-02706,R-106,Gym,Gym,True,Tue,Tue,True,09:00,09:00,True,8h before use,2025-11-04T01:00,True,8,8.0,0.0,4 of 4,True
+B-02707,R-084,Gym,Gym,True,Tue,Tue,True,10:00,20:00,False,18h before use,2025-11-04T02:00,True,18,18.0,0.0,3 of 4,False
+B-02708,R-078,Badminton,Badminton,True,Wed,Wed,True,09:00,09:00,True,30h before use,2025-11-04T03:00,True,30,30.0,0.0,4 of 4,True
+B-02709,R-124,Gym,Gym,True,Tue,Tue,True,10:00,18:00,False,72h before use,2025-11-04T06:00,False,72,12.0,60.0,2 of 4,False
+B-02710,R-011,Badminton,Badminton,True,Fri,Fri,True,08:00,08:00,True,72h before use,2025-11-04T08:00,True,72,72.0,0.0,4 of 4,True
+B-02711,R-007,Clubhouse,Gym,False,Tue,Fri,False,08:00,08:45,True,72h before use,2025-11-04T08:45,True,72,72.0,0.0,2 of 4,False
+B-02712,R-008,Pool,Pool,True,Sun,Thu,False,21:00,21:30,True,8h before use,2025-11-04T09:30,False,8,60.0,52.0,2 of 4,False
+B-02713,R-004,Clubhouse,Clubhouse,True,Thu,Thu,True,10:00,10:00,True,48h before use,2025-11-04T10:00,True,48,48.0,0.0,4 of 4,True
+B-02714,R-010,Gym,Gym,True,Mon,Wed,False,19:00,19:45,True,30h before use,2025-11-04T13:45,True,30,30.0,0.0,3 of 4,False
+B-02715,R-031,Gym,Gym,True,Wed,Tue,False,06:00,16:00,False,2h before use,2025-11-04T14:00,True,2,2.0,0.0,2 of 4,False
+B-02716,R-013,Gym,Gym,True,Wed,Tue,False,20:00,17:00,False,2h before use,2025-11-04T15:00,True,2,2.0,0.0,2 of 4,False
+B-02717,R-028,Pool,Pool,True,Sat,Sat,True,20:00,18:15,False,30h before use,2025-11-04T18:15,False,30,96.0,66.0,2 of 4,False
+B-02718,R-058,Gym,Gym,True,Thu,Thu,True,07:00,07:00,True,30h before use,2025-11-05T01:00,True,30,30.0,0.0,4 of 4,True
+B-02719,R-070,Gym,Gym,True,Wed,Wed,True,07:00,07:00,True,30h before use,2025-11-05T03:00,False,30,4.0,26.0,3 of 4,False
+B-02720,R-022,Gym,Gym,True,Fri,Wed,False,20:00,21:00,False,24h before use,2025-11-05T03:00,True,24,18.0,6.0,2 of 4,False
+B-02721,R-080,Badminton,Pool,False,Wed,Wed,True,18:00,18:00,True,2h before use,2025-11-05T17:00,True,2,1.0,1.0,3 of 4,False
+B-02722,R-042,Pool,Pool,True,Sat,Wed,False,20:00,20:30,True,48h before use,2025-11-05T19:30,False,48,1.0,47.0,2 of 4,False
+B-02723,R-058,Gym,Badminton,False,Thu,Thu,True,07:00,19:30,False,30h before use,2025-11-05T19:30,True,30,24.0,6.0,2 of 4,False
+B-02724,R-056,Badminton,Badminton,True,Sun,Fri,False,06:00,06:00,True,30h before use,2025-11-06T00:00,True,30,30.0,0.0,3 of 4,False
+B-02725,R-025,Gym,Gym,True,Tue,Thu,False,10:00,20:30,False,18h before use,2025-11-06T02:30,True,18,18.0,0.0,2 of 4,False
+B-02726,R-002,Gym,Gym,True,Sun,Sun,True,19:00,07:00,False,72h before use,2025-11-06T07:00,True,72,72.0,0.0,3 of 4,False
+B-02727,R-033,Badminton,Badminton,True,Sun,Sun,True,10:00,10:00,True,72h before use,2025-11-06T10:00,True,72,72.0,0.0,4 of 4,True
+B-02728,R-025,Gym,Gym,True,Tue,Fri,False,10:00,10:00,True,18h before use,2025-11-06T16:00,True,18,18.0,0.0,3 of 4,False
+B-02729,R-050,Pool,Pool,True,Thu,Thu,True,18:00,18:15,True,2h before use,2025-11-06T16:15,True,2,2.0,0.0,4 of 4,True
+B-02730,R-069,Gym,Gym,True,Tue,Sat,False,19:00,19:15,True,48h before use,2025-11-06T19:15,True,48,48.0,0.0,3 of 4,False
+B-02731,R-002,Gym,Gym,True,Sun,Sun,True,19:00,19:15,True,72h before use,2025-11-06T19:15,True,72,72.0,0.0,4 of 4,True
+B-02732,R-006,Pool,Pool,True,Fri,Fri,True,06:00,06:00,True,8h before use,2025-11-06T22:00,True,8,8.0,0.0,4 of 4,True
+B-02733,R-006,Pool,Pool,True,Fri,Fri,True,06:00,06:15,True,8h before use,2025-11-06T22:15,True,8,8.0,0.0,4 of 4,True
+B-02734,R-053,Gym,Gym,True,Fri,Fri,True,21:00,21:15,True,72h before use,2025-11-07T09:15,False,72,12.0,60.0,3 of 4,False
+B-02735,R-092,Gym,Gym,True,Sat,Sat,True,21:00,17:30,False,30h before use,2025-11-07T11:30,True,30,30.0,0.0,3 of 4,False
+B-02736,R-062,Pool,Pool,True,Mon,Sat,False,19:00,06:45,False,18h before use,2025-11-07T12:45,True,18,18.0,0.0,2 of 4,False
+B-02737,R-028,Pool,Pool,True,Sat,Sat,True,20:00,20:15,True,30h before use,2025-11-07T14:15,True,30,30.0,0.0,4 of 4,True
+B-02738,R-105,Pool,Gym,False,Tue,Fri,False,18:00,18:30,True,2h before use,2025-11-07T16:30,True,2,2.0,0.0,2 of 4,False
+B-02739,R-035,Gym,Gym,True,Sat,Sat,True,09:00,09:45,True,8h before use,2025-11-08T01:45,True,8,8.0,0.0,4 of 4,True
+B-02740,R-007,Clubhouse,Clubhouse,True,Tue,Tue,True,08:00,08:00,True,72h before use,2025-11-08T08:00,True,72,72.0,0.0,4 of 4,True
+B-02741,R-061,Gym,Gym,True,Fri,Sun,False,20:00,18:00,False,30h before use,2025-11-08T12:00,True,30,30.0,0.0,2 of 4,False
+B-02742,R-014,Clubhouse,Clubhouse,True,Sat,Sat,True,16:00,16:15,True,2h before use,2025-11-08T14:15,True,2,2.0,0.0,4 of 4,True
+B-02743,R-102,Gym,Gym,True,Sun,Sun,True,09:00,09:15,True,18h before use,2025-11-08T15:15,True,18,18.0,0.0,4 of 4,True
+B-02744,R-128,Badminton,Badminton,True,Sat,Sat,True,18:00,18:00,True,2h before use,2025-11-08T16:00,True,2,2.0,0.0,4 of 4,True
+B-02745,R-020,Pool,Pool,True,Tue,Tue,True,10:00,18:00,False,72h before use,2025-11-08T18:00,True,72,72.0,0.0,3 of 4,False
+B-02746,R-016,Clubhouse,Multipurpose Hall,False,Tue,Mon,False,07:00,18:45,False,48h before use,2025-11-08T18:45,True,48,48.0,0.0,1 of 4,False
+B-02747,R-001,Pool,Gym,False,Sun,Sat,False,10:00,20:45,False,18h before use,2025-11-08T19:45,True,18,1.0,17.0,1 of 4,False
+B-02748,R-103,Multipurpose Hall,Multipurpose Hall,True,Tue,Mon,False,08:00,08:15,True,30h before use,2025-11-09T02:15,True,30,30.0,0.0,3 of 4,False
+B-02749,R-026,Gym,Gym,True,Sat,Sun,False,18:00,10:30,False,2h before use,2025-11-09T08:30,True,2,2.0,0.0,2 of 4,False
+B-02750,R-003,Gym,Gym,True,Mon,Mon,True,09:00,09:00,True,30h before use,2025-11-09T09:00,True,30,24.0,6.0,4 of 4,True
+B-02751,R-057,Pool,Pool,True,Sun,Wed,False,09:00,09:15,True,72h before use,2025-11-09T09:15,True,72,72.0,0.0,3 of 4,False
+B-02752,R-121,Pool,Pool,True,Sat,Tue,False,09:00,09:45,True,48h before use,2025-11-09T09:45,True,48,48.0,0.0,3 of 4,False
+B-02753,R-010,Gym,Gym,True,Mon,Mon,True,19:00,17:00,False,30h before use,2025-11-09T11:00,True,30,30.0,0.0,3 of 4,False
+B-02754,R-010,Gym,Gym,True,Mon,Sun,False,19:00,18:00,False,30h before use,2025-11-09T17:00,False,30,1.0,29.0,1 of 4,False
+B-02755,R-030,Gym,Gym,True,Tue,Tue,True,06:00,17:30,False,48h before use,2025-11-09T17:30,True,48,48.0,0.0,3 of 4,False
+B-02756,R-076,Gym,Gym,True,Tue,Tue,True,17:00,17:45,True,48h before use,2025-11-09T17:45,True,48,48.0,0.0,4 of 4,True
+B-02757,R-069,Gym,Gym,True,Tue,Tue,True,19:00,19:15,True,48h before use,2025-11-09T19:15,True,48,48.0,0.0,4 of 4,True
+B-02758,R-032,Gym,Badminton,False,Thu,Wed,False,07:00,21:00,False,72h before use,2025-11-09T21:00,True,72,72.0,0.0,1 of 4,False
+B-02759,R-062,Pool,Pool,True,Mon,Mon,True,19:00,19:00,True,18h before use,2025-11-10T01:00,True,18,18.0,0.0,4 of 4,True
+B-02760,R-062,Pool,Pool,True,Mon,Mon,True,19:00,19:00,True,18h before use,2025-11-10T01:00,True,18,18.0,0.0,4 of 4,True
+B-02761,R-016,Clubhouse,Clubhouse,True,Tue,Wed,False,07:00,06:00,False,48h before use,2025-11-10T06:00,True,48,48.0,0.0,2 of 4,False
+B-02762,R-032,Gym,Gym,True,Thu,Thu,True,07:00,07:45,True,72h before use,2025-11-10T07:45,True,72,72.0,0.0,4 of 4,True
+B-02763,R-007,Clubhouse,Clubhouse,True,Tue,Thu,False,08:00,08:00,True,72h before use,2025-11-10T08:00,True,72,72.0,0.0,3 of 4,False
+B-02764,R-009,Gym,Gym,True,Mon,Mon,True,21:00,21:30,True,2h before use,2025-11-10T19:30,True,2,2.0,0.0,4 of 4,True
+B-02765,R-003,Gym,Gym,True,Mon,Tue,False,09:00,07:30,False,30h before use,2025-11-10T19:30,True,30,12.0,18.0,2 of 4,False
+B-02766,R-086,Badminton,Badminton,True,Thu,Thu,True,07:00,20:00,False,72h before use,2025-11-10T20:00,True,72,72.0,0.0,3 of 4,False
+B-02767,R-106,Gym,Gym,True,Tue,Tue,True,09:00,07:30,False,8h before use,2025-11-10T23:30,True,8,8.0,0.0,3 of 4,False
+B-02768,R-070,Gym,Gym,True,Wed,Wed,True,07:00,07:15,True,30h before use,2025-11-11T01:15,True,30,30.0,0.0,4 of 4,True
+B-02769,R-078,Badminton,Badminton,True,Wed,Wed,True,09:00,09:00,True,30h before use,2025-11-11T03:00,True,30,30.0,0.0,4 of 4,True
+B-02770,R-136,Clubhouse,Clubhouse,True,Thu,Thu,True,19:00,17:30,False,30h before use,2025-11-11T05:30,False,30,60.0,30.0,2 of 4,False
+B-02771,R-011,Badminton,Pool,False,Fri,Fri,True,08:00,06:00,False,72h before use,2025-11-11T06:00,True,72,72.0,0.0,2 of 4,False
+B-02772,R-071,Pool,Pool,True,Thu,Tue,False,19:00,19:00,True,48h before use,2025-11-11T07:00,False,48,12.0,36.0,2 of 4,False
+B-02773,R-106,Gym,Gym,True,Tue,Tue,True,09:00,09:15,True,8h before use,2025-11-11T08:15,True,8,1.0,7.0,4 of 4,True
+B-02774,R-038,Gym,Gym,True,Thu,Thu,True,09:00,09:00,True,48h before use,2025-11-11T09:00,True,48,48.0,0.0,4 of 4,True
+B-02775,R-004,Clubhouse,Clubhouse,True,Thu,Thu,True,10:00,10:00,True,48h before use,2025-11-11T10:00,True,48,48.0,0.0,4 of 4,True
+B-02776,R-033,Badminton,Badminton,True,Sun,Fri,False,10:00,10:00,True,72h before use,2025-11-11T10:00,True,72,72.0,0.0,3 of 4,False
+B-02777,R-105,Pool,Pool,True,Tue,Tue,True,18:00,18:00,True,2h before use,2025-11-11T16:00,True,2,2.0,0.0,4 of 4,True
+B-02778,R-067,Gym,Gym,True,Tue,Tue,True,07:00,20:30,False,72h before use,2025-11-11T16:30,False,72,4.0,68.0,2 of 4,False
+B-02779,R-009,Gym,Gym,True,Mon,Tue,False,21:00,20:00,False,2h before use,2025-11-11T18:00,True,2,2.0,0.0,2 of 4,False
+B-02780,R-093,Pool,Pool,True,Fri,Fri,True,10:00,19:45,False,72h before use,2025-11-11T19:45,True,72,72.0,0.0,3 of 4,False
+B-02781,R-138,Pool,Pool,True,Fri,Fri,True,19:00,21:45,False,72h before use,2025-11-11T21:45,True,72,72.0,0.0,3 of 4,False
+B-02782,R-045,Gym,Gym,True,Tue,Wed,False,09:00,09:00,True,18h before use,2025-11-12T05:00,True,18,4.0,14.0,3 of 4,False
+B-02783,R-031,Gym,Gym,True,Wed,Wed,True,06:00,16:45,False,2h before use,2025-11-12T14:45,True,2,2.0,0.0,3 of 4,False
+B-02784,R-015,Multipurpose Hall,Multipurpose Hall,True,Wed,Wed,True,20:00,20:30,True,2h before use,2025-11-12T16:30,True,2,4.0,2.0,4 of 4,True
+B-02785,R-015,Multipurpose Hall,Multipurpose Hall,True,Wed,Wed,True,20:00,20:00,True,2h before use,2025-11-12T18:00,True,2,2.0,0.0,4 of 4,True
+B-02786,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:00,True,72h before use,2025-11-12T21:00,True,72,72.0,0.0,4 of 4,True
+B-02787,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:00,True,72h before use,2025-11-12T21:00,True,72,72.0,0.0,4 of 4,True
+B-02788,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:45,True,72h before use,2025-11-12T21:45,True,72,72.0,0.0,4 of 4,True
+B-02789,R-014,Clubhouse,Clubhouse,True,Sat,Sat,True,16:00,16:15,True,2h before use,2025-11-13T04:15,False,2,60.0,58.0,3 of 4,False
+B-02790,R-046,Pool,Pool,True,Thu,Thu,True,20:00,07:00,False,2h before use,2025-11-13T05:00,True,2,2.0,0.0,3 of 4,False
+B-02791,R-033,Badminton,Badminton,True,Sun,Sun,True,10:00,10:00,True,72h before use,2025-11-13T10:00,True,72,72.0,0.0,4 of 4,True
+B-02792,R-061,Gym,Clubhouse,False,Fri,Fri,True,20:00,20:00,True,30h before use,2025-11-13T14:00,True,30,30.0,0.0,3 of 4,False
+B-02793,R-043,Pool,Pool,True,Mon,Sat,False,16:00,16:00,True,48h before use,2025-11-13T16:00,True,48,48.0,0.0,3 of 4,False
+B-02794,R-022,Gym,Badminton,False,Fri,Fri,True,20:00,20:45,True,18h before use,2025-11-13T20:45,True,18,24.0,6.0,3 of 4,False
+B-02795,R-006,Pool,Pool,True,Fri,Fri,True,06:00,06:00,True,8h before use,2025-11-13T22:00,True,8,8.0,0.0,4 of 4,True
+B-02796,R-047,Pool,Pool,True,Fri,Fri,True,06:00,07:00,False,8h before use,2025-11-13T23:00,True,8,8.0,0.0,3 of 4,False
+B-02797,R-018,Gym,Gym,True,Mon,Fri,False,10:00,10:15,True,8h before use,2025-11-14T02:15,True,8,8.0,0.0,3 of 4,False
+B-02798,R-132,Badminton,Badminton,True,Mon,Fri,False,21:00,21:00,True,18h before use,2025-11-14T03:00,True,18,18.0,0.0,3 of 4,False
+B-02799,R-049,Pool,Pool,True,Thu,Sat,False,19:00,06:30,False,8h before use,2025-11-14T06:30,True,8,24.0,16.0,2 of 4,False
+B-02800,R-055,Multipurpose Hall,Multipurpose Hall,True,Fri,Fri,True,09:00,09:30,True,2h before use,2025-11-14T07:30,True,2,2.0,0.0,4 of 4,True
+B-02801,R-019,Badminton,Badminton,True,Sun,Sun,True,19:00,07:45,False,48h before use,2025-11-14T07:45,True,48,48.0,0.0,3 of 4,False
+B-02802,R-097,Clubhouse,Clubhouse,True,Mon,Mon,True,18:00,08:15,False,72h before use,2025-11-14T08:15,True,72,72.0,0.0,3 of 4,False
+B-02803,R-129,Clubhouse,Clubhouse,True,Mon,Mon,True,19:00,08:15,False,72h before use,2025-11-14T08:15,True,72,72.0,0.0,3 of 4,False
+B-02804,R-019,Badminton,Badminton,True,Sun,Sun,True,19:00,10:00,False,48h before use,2025-11-14T10:00,True,48,48.0,0.0,3 of 4,False
+B-02805,R-027,Badminton,Badminton,True,Fri,Fri,True,21:00,20:00,False,8h before use,2025-11-14T12:00,True,8,8.0,0.0,3 of 4,False
+B-02806,R-007,Clubhouse,Clubhouse,True,Tue,Tue,True,08:00,08:15,True,72h before use,2025-11-15T08:15,True,72,72.0,0.0,4 of 4,True
+B-02807,R-026,Gym,Gym,True,Sat,Sat,True,18:00,18:15,True,2h before use,2025-11-15T16:15,True,2,2.0,0.0,4 of 4,True
+B-02808,R-043,Pool,Pool,True,Mon,Mon,True,16:00,16:15,True,48h before use,2025-11-15T16:15,True,48,48.0,0.0,4 of 4,True
+B-02809,R-037,Clubhouse,Clubhouse,True,Mon,Mon,True,18:00,18:00,True,48h before use,2025-11-15T18:00,True,48,48.0,0.0,4 of 4,True
+B-02810,R-019,Badminton,Badminton,True,Sun,Mon,False,19:00,19:00,True,48h before use,2025-11-15T19:00,True,48,48.0,0.0,3 of 4,False
+B-02811,R-020,Pool,Pool,True,Tue,Tue,True,10:00,20:00,False,72h before use,2025-11-15T20:00,True,72,72.0,0.0,3 of 4,False
+B-02812,R-046,Pool,Pool,True,Thu,Wed,False,20:00,20:15,True,2h before use,2025-11-15T20:15,False,2,96.0,94.0,2 of 4,False
+B-02813,R-040,Multipurpose Hall,Multipurpose Hall,True,Sun,Sun,True,09:00,09:30,True,8h before use,2025-11-16T01:30,True,8,8.0,0.0,4 of 4,True
+B-02814,R-102,Gym,Gym,True,Sun,Sun,True,09:00,19:30,False,18h before use,2025-11-16T01:30,True,18,18.0,0.0,3 of 4,False
+B-02815,R-087,Badminton,Badminton,True,Sun,Sun,True,10:00,10:15,True,8h before use,2025-11-16T02:15,True,8,8.0,0.0,4 of 4,True
+B-02816,R-087,Badminton,Badminton,True,Sun,Sun,True,10:00,10:30,True,8h before use,2025-11-16T02:30,True,8,8.0,0.0,4 of 4,True
+B-02817,R-010,Gym,Gym,True,Mon,Mon,True,19:00,09:30,False,30h before use,2025-11-16T03:30,True,30,30.0,0.0,3 of 4,False
+B-02818,R-021,Gym,Gym,True,Wed,Sun,False,16:00,16:00,True,8h before use,2025-11-16T08:00,True,8,8.0,0.0,3 of 4,False
+B-02819,R-100,Gym,Multipurpose Hall,False,Sun,Mon,False,17:00,17:30,True,30h before use,2025-11-16T11:30,True,30,30.0,0.0,2 of 4,False
+B-02820,R-006,Pool,Gym,False,Fri,Sun,False,06:00,20:15,False,8h before use,2025-11-16T12:15,True,8,8.0,0.0,1 of 4,False
+B-02821,R-010,Gym,Gym,True,Mon,Mon,True,19:00,18:45,False,30h before use,2025-11-16T12:45,True,30,30.0,0.0,3 of 4,False
+B-02822,R-008,Pool,Pool,True,Sun,Sun,True,21:00,21:30,True,8h before use,2025-11-16T13:30,True,8,8.0,0.0,4 of 4,True
+B-02823,R-010,Gym,Gym,True,Mon,Mon,True,19:00,19:30,True,30h before use,2025-11-16T13:30,True,30,30.0,0.0,4 of 4,True
+B-02824,R-009,Gym,Badminton,False,Mon,Sun,False,21:00,18:30,False,2h before use,2025-11-16T16:30,True,2,2.0,0.0,1 of 4,False
+B-02825,R-009,Gym,Gym,True,Mon,Sun,False,18:00,21:15,False,2h before use,2025-11-16T19:15,True,2,2.0,0.0,2 of 4,False
+B-02826,R-002,Gym,Gym,True,Sun,Sun,True,19:00,21:00,False,72h before use,2025-11-16T20:00,False,72,1.0,71.0,2 of 4,False
+B-02827,R-111,Badminton,Gym,False,Mon,Mon,True,19:00,19:45,True,18h before use,2025-11-17T01:45,True,18,18.0,0.0,3 of 4,False
+B-02828,R-062,Pool,Pool,True,Mon,Mon,True,19:00,20:45,False,18h before use,2025-11-17T02:45,True,18,18.0,0.0,3 of 4,False
+B-02829,R-023,Gym,Badminton,False,Mon,Mon,True,16:00,16:00,True,2h before use,2025-11-17T04:00,True,2,12.0,10.0,3 of 4,False
+B-02830,R-052,Gym,Pool,False,Wed,Mon,False,09:00,09:00,True,2h before use,2025-11-17T07:00,True,2,2.0,0.0,2 of 4,False
+B-02831,R-007,Clubhouse,Clubhouse,True,Tue,Tue,True,08:00,08:15,True,72h before use,2025-11-17T08:15,False,72,24.0,48.0,3 of 4,False
+B-02832,R-081,Pool,Pool,True,Fri,Mon,False,17:00,17:30,True,8h before use,2025-11-17T09:30,True,8,8.0,0.0,3 of 4,False
+B-02833,R-121,Pool,Pool,True,Sat,Wed,False,09:00,09:30,True,48h before use,2025-11-17T09:30,True,48,48.0,0.0,3 of 4,False
+B-02834,R-025,Gym,Gym,True,Tue,Tue,True,10:00,10:00,True,18h before use,2025-11-17T16:00,True,18,18.0,0.0,4 of 4,True
+B-02835,R-076,Gym,Gym,True,Tue,Tue,True,17:00,17:00,True,48h before use,2025-11-17T17:00,True,48,24.0,24.0,4 of 4,True
+B-02836,R-059,Multipurpose Hall,Pool,False,Sat,Mon,False,19:00,19:45,True,2h before use,2025-11-17T17:45,True,2,2.0,0.0,2 of 4,False
+B-02837,R-099,Multipurpose Hall,Gym,False,Thu,Thu,True,18:00,18:15,True,72h before use,2025-11-17T18:15,True,72,72.0,0.0,3 of 4,False
+B-02838,R-010,Gym,Gym,True,Mon,Tue,False,19:00,19:00,True,30h before use,2025-11-18T07:00,True,30,12.0,18.0,3 of 4,False
+B-02839,R-034,Multipurpose Hall,Multipurpose Hall,True,Thu,Thu,True,07:00,07:30,True,48h before use,2025-11-18T07:30,True,48,48.0,0.0,4 of 4,True
+B-02840,R-070,Gym,Gym,True,Wed,Sat,False,07:00,07:30,True,30h before use,2025-11-18T07:30,False,30,96.0,66.0,2 of 4,False
+B-02841,R-004,Clubhouse,Clubhouse,True,Thu,Thu,True,10:00,10:00,True,48h before use,2025-11-18T10:00,True,48,48.0,0.0,4 of 4,True
+B-02842,R-033,Badminton,Badminton,True,Sun,Fri,False,10:00,10:15,True,72h before use,2025-11-18T10:15,True,72,72.0,0.0,3 of 4,False
+B-02843,R-004,Clubhouse,Clubhouse,True,Thu,Thu,True,10:00,10:45,True,48h before use,2025-11-18T10:45,True,48,48.0,0.0,4 of 4,True
+B-02844,R-079,Gym,Gym,True,Tue,Tue,True,16:00,16:30,True,2h before use,2025-11-18T14:30,True,2,2.0,0.0,4 of 4,True
+B-02845,R-025,Gym,Gym,True,Tue,Wed,False,10:00,10:00,True,18h before use,2025-11-18T16:00,True,18,18.0,0.0,3 of 4,False
+B-02846,R-003,Gym,Gym,True,Mon,Thu,False,09:00,08:00,False,30h before use,2025-11-19T02:00,True,30,30.0,0.0,2 of 4,False
+B-02847,R-021,Gym,Gym,True,Wed,Wed,True,16:00,16:15,True,8h before use,2025-11-19T08:15,True,8,8.0,0.0,4 of 4,True
+B-02848,R-027,Badminton,Badminton,True,Fri,Fri,True,21:00,21:15,True,8h before use,2025-11-19T09:15,False,8,60.0,52.0,3 of 4,False
+B-02849,R-044,Gym,Gym,True,Fri,Fri,True,09:00,09:45,True,48h before use,2025-11-19T09:45,True,48,48.0,0.0,4 of 4,True
+B-02850,R-115,Gym,Gym,True,Tue,Thu,False,16:00,16:00,True,30h before use,2025-11-19T10:00,True,30,30.0,0.0,3 of 4,False
+B-02851,R-018,Gym,Gym,True,Mon,Wed,False,10:00,21:00,False,8h before use,2025-11-19T13:00,True,8,8.0,0.0,2 of 4,False
+B-02852,R-036,Pool,Pool,True,Wed,Wed,True,20:00,21:30,False,8h before use,2025-11-19T13:30,True,8,8.0,0.0,3 of 4,False
+B-02853,R-031,Gym,Gym,True,Wed,Wed,True,16:00,16:00,True,2h before use,2025-11-19T14:00,True,2,2.0,0.0,4 of 4,True
+B-02854,R-013,Gym,Gym,True,Wed,Wed,True,20:00,20:00,True,2h before use,2025-11-19T18:00,True,2,2.0,0.0,4 of 4,True
+B-02855,R-110,Gym,Gym,True,Wed,Wed,True,20:00,20:15,True,2h before use,2025-11-19T18:15,True,2,2.0,0.0,4 of 4,True
+B-02856,R-004,Clubhouse,Clubhouse,True,Thu,Thu,True,10:00,06:00,False,48h before use,2025-11-20T02:00,False,48,4.0,44.0,2 of 4,False
+B-02857,R-137,Pool,Badminton,False,Sun,Thu,False,21:00,21:30,True,18h before use,2025-11-20T03:30,True,18,18.0,0.0,2 of 4,False
+B-02858,R-050,Pool,Pool,True,Thu,Thu,True,18:00,18:45,True,2h before use,2025-11-20T16:45,True,2,2.0,0.0,4 of 4,True
+B-02859,R-067,Gym,Gym,True,Tue,Sun,False,07:00,18:00,False,72h before use,2025-11-20T18:00,True,72,72.0,0.0,2 of 4,False
+B-02860,R-019,Badminton,Badminton,True,Sun,Sat,False,19:00,19:00,True,48h before use,2025-11-20T19:00,True,48,48.0,0.0,3 of 4,False
+B-02861,R-002,Gym,Gym,True,Sun,Sun,True,19:00,19:15,True,72h before use,2025-11-20T19:15,True,72,72.0,0.0,4 of 4,True
+B-02862,R-057,Pool,Pool,True,Sun,Sun,True,09:00,07:30,False,72h before use,2025-11-20T19:30,True,72,60.0,12.0,3 of 4,False
+B-02863,R-006,Pool,Pool,True,Fri,Fri,True,06:00,06:00,True,8h before use,2025-11-20T22:00,True,8,8.0,0.0,4 of 4,True
+B-02864,R-006,Pool,Pool,True,Fri,Fri,True,06:00,06:45,True,8h before use,2025-11-20T22:45,True,8,8.0,0.0,4 of 4,True
+B-02865,R-140,Clubhouse,Clubhouse,True,Sat,Sat,True,16:00,09:00,False,24h before use,2025-11-21T03:00,True,24,30.0,6.0,3 of 4,False
+B-02866,R-116,Gym,Gym,True,Tue,Sun,False,06:00,06:15,True,48h before use,2025-11-21T06:15,True,48,48.0,0.0,3 of 4,False
+B-02867,R-049,Pool,Pool,True,Thu,Fri,False,19:00,19:15,True,8h before use,2025-11-21T11:15,True,8,8.0,0.0,3 of 4,False
+B-02868,R-117,Clubhouse,Clubhouse,True,Mon,Sun,False,16:00,16:00,True,48h before use,2025-11-21T16:00,True,48,48.0,0.0,3 of 4,False
+B-02869,R-104,Gym,Gym,True,Mon,Mon,True,17:00,17:00,True,72h before use,2025-11-21T17:00,True,72,72.0,0.0,4 of 4,True
+B-02870,R-039,Pool,Pool,True,Sat,Sat,True,18:00,18:00,True,2h before use,2025-11-21T18:00,True,2,24.0,22.0,4 of 4,True
+B-02871,R-077,Gym,Gym,True,Sun,Sun,True,18:00,18:00,True,48h before use,2025-11-21T18:00,True,48,48.0,0.0,4 of 4,True
+B-02872,R-111,Badminton,Badminton,True,Mon,Sat,False,19:00,19:00,True,18h before use,2025-11-22T01:00,True,18,18.0,0.0,3 of 4,False
+B-02873,R-026,Gym,Gym,True,Sat,Sat,True,18:00,07:45,False,2h before use,2025-11-22T05:45,True,2,2.0,0.0,3 of 4,False
+B-02874,R-052,Gym,Gym,True,Wed,Wed,True,09:00,09:30,True,2h before use,2025-11-22T09:30,False,2,96.0,94.0,3 of 4,False
+B-02875,R-010,Gym,Pool,False,Mon,Sun,False,19:00,18:30,False,30h before use,2025-11-22T12:30,True,30,30.0,0.0,1 of 4,False
+B-02876,R-014,Clubhouse,Clubhouse,True,Sat,Sat,True,16:00,16:30,True,2h before use,2025-11-22T14:30,True,2,2.0,0.0,4 of 4,True
+B-02877,R-039,Pool,Pool,True,Sat,Sat,True,18:00,17:00,False,2h before use,2025-11-22T15:00,True,2,2.0,0.0,3 of 4,False
+B-02878,R-102,Gym,Gym,True,Sun,Sun,True,09:00,09:45,True,18h before use,2025-11-22T15:45,True,18,18.0,0.0,4 of 4,True
+B-02879,R-059,Multipurpose Hall,Multipurpose Hall,True,Sat,Sat,True,19:00,19:00,True,2h before use,2025-11-22T17:00,True,2,2.0,0.0,4 of 4,True
+B-02880,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:15,True,72h before use,2025-11-22T17:15,False,72,4.0,68.0,3 of 4,False
+B-02881,R-096,Clubhouse,Clubhouse,True,Tue,Tue,True,09:00,19:30,False,72h before use,2025-11-22T19:30,True,72,72.0,0.0,3 of 4,False
+B-02882,R-025,Gym,Gym,True,Tue,Sun,False,10:00,21:15,False,18h before use,2025-11-23T03:15,True,18,18.0,0.0,2 of 4,False
+B-02883,R-003,Gym,Multipurpose Hall,False,Mon,Mon,True,09:00,09:15,True,30h before use,2025-11-23T03:15,True,30,30.0,0.0,3 of 4,False
+B-02884,R-016,Clubhouse,Clubhouse,True,Tue,Tue,True,07:00,07:30,True,48h before use,2025-11-23T07:30,True,48,48.0,0.0,4 of 4,True
+B-02885,R-122,Clubhouse,Clubhouse,True,Mon,Mon,True,21:00,07:30,False,18h before use,2025-11-23T13:30,True,18,18.0,0.0,3 of 4,False
+B-02886,R-019,Badminton,Badminton,True,Sun,Sun,True,19:00,19:00,True,48h before use,2025-11-23T15:00,False,48,4.0,44.0,3 of 4,False
+B-02887,R-030,Gym,Gym,True,Tue,Tue,True,06:00,16:15,False,48h before use,2025-11-23T16:15,True,48,48.0,0.0,3 of 4,False
+B-02888,R-052,Gym,Gym,True,Wed,Wed,True,09:00,09:00,True,2h before use,2025-11-23T21:00,False,2,60.0,58.0,3 of 4,False
+B-02889,R-018,Gym,Gym,True,Mon,Mon,True,10:00,10:45,True,8h before use,2025-11-24T02:45,True,8,8.0,0.0,4 of 4,True
+B-02890,R-054,Gym,Gym,True,Mon,Mon,True,18:00,18:15,True,72h before use,2025-11-24T06:15,False,72,12.0,60.0,3 of 4,False
+B-02891,R-018,Gym,Gym,True,Mon,Mon,True,10:00,07:45,False,8h before use,2025-11-24T06:45,True,8,1.0,7.0,3 of 4,False
+B-02892,R-032,Gym,Gym,True,Thu,Thu,True,07:00,06:45,False,72h before use,2025-11-24T06:45,True,72,72.0,0.0,3 of 4,False
+B-02893,R-086,Badminton,Badminton,True,Thu,Thu,True,07:00,07:00,True,72h before use,2025-11-24T07:00,True,72,72.0,0.0,4 of 4,True
+B-02894,R-111,Badminton,Badminton,True,Mon,Wed,False,19:00,19:45,True,18h before use,2025-11-24T07:45,False,18,60.0,42.0,2 of 4,False
+B-02895,R-118,Badminton,Badminton,True,Sun,Mon,False,17:00,17:00,True,2h before use,2025-11-24T15:00,True,2,2.0,0.0,3 of 4,False
+B-02896,R-025,Gym,Gym,True,Tue,Tue,True,10:00,10:00,True,18h before use,2025-11-24T16:00,True,18,18.0,0.0,4 of 4,True
+B-02897,R-096,Clubhouse,Clubhouse,True,Tue,Tue,True,09:00,09:45,True,72h before use,2025-11-24T21:45,False,72,12.0,60.0,3 of 4,False
+B-02898,R-073,Gym,Gym,True,Fri,Tue,False,19:00,19:45,True,18h before use,2025-11-25T01:45,True,18,18.0,0.0,3 of 4,False
+B-02899,R-078,Badminton,Pool,False,Wed,Wed,True,09:00,09:30,True,30h before use,2025-11-25T03:30,True,30,30.0,0.0,3 of 4,False
+B-02900,R-016,Clubhouse,Clubhouse,True,Tue,Thu,False,07:00,07:15,True,48h before use,2025-11-25T07:15,True,48,48.0,0.0,3 of 4,False
+B-02901,R-036,Pool,Gym,False,Wed,Wed,True,20:00,08:00,False,8h before use,2025-11-25T08:00,True,8,24.0,16.0,2 of 4,False
+B-02902,R-011,Badminton,Badminton,True,Fri,Fri,True,08:00,08:00,True,72h before use,2025-11-25T08:00,True,72,72.0,0.0,4 of 4,True
+B-02903,R-011,Badminton,Badminton,True,Fri,Fri,True,08:00,08:00,True,72h before use,2025-11-25T08:00,True,72,72.0,0.0,4 of 4,True
+B-02904,R-034,Multipurpose Hall,Multipurpose Hall,True,Thu,Thu,True,07:00,09:00,False,48h before use,2025-11-25T09:00,True,48,48.0,0.0,3 of 4,False
+B-02905,R-004,Clubhouse,Pool,False,Thu,Thu,True,10:00,10:00,True,48h before use,2025-11-25T10:00,True,48,48.0,0.0,3 of 4,False
+B-02906,R-004,Clubhouse,Clubhouse,True,Thu,Thu,True,10:00,10:15,True,48h before use,2025-11-25T10:15,True,48,48.0,0.0,4 of 4,True
+B-02907,R-105,Pool,Pool,True,Tue,Tue,True,18:00,18:00,True,2h before use,2025-11-25T16:00,True,2,2.0,0.0,4 of 4,True
+B-02908,R-105,Pool,Pool,True,Tue,Tue,True,18:00,18:30,True,2h before use,2025-11-25T16:30,True,2,2.0,0.0,4 of 4,True
+B-02909,R-015,Multipurpose Hall,Multipurpose Hall,True,Wed,Tue,False,20:00,20:00,True,2h before use,2025-11-25T19:00,True,2,1.0,1.0,3 of 4,False
+B-02910,R-138,Pool,Pool,True,Fri,Fri,True,19:00,19:15,True,72h before use,2025-11-25T19:15,True,72,72.0,0.0,4 of 4,True
+B-02911,R-053,Gym,Gym,True,Fri,Fri,True,21:00,21:00,True,72h before use,2025-11-25T21:00,True,72,72.0,0.0,4 of 4,True
+B-02912,R-109,Badminton,Badminton,True,Fri,Fri,True,10:00,21:00,False,72h before use,2025-11-25T21:00,True,72,72.0,0.0,3 of 4,False
+B-02913,R-092,Gym,Gym,True,Sat,Sat,True,21:00,21:15,True,30h before use,2025-11-25T21:15,False,30,96.0,66.0,3 of 4,False
+B-02914,R-053,Gym,Gym,True,Fri,Fri,True,21:00,21:30,True,72h before use,2025-11-25T21:30,True,72,72.0,0.0,4 of 4,True
+B-02915,R-006,Pool,Pool,True,Fri,Wed,False,06:00,06:45,True,8h before use,2025-11-25T22:45,True,8,8.0,0.0,3 of 4,False
+B-02916,R-021,Gym,Gym,True,Wed,Wed,True,16:00,10:45,False,8h before use,2025-11-26T02:45,True,8,8.0,0.0,3 of 4,False
+B-02917,R-021,Gym,Gym,True,Wed,Wed,True,16:00,16:00,True,8h before use,2025-11-26T08:00,True,8,8.0,0.0,4 of 4,True
+B-02918,R-044,Gym,Gym,True,Fri,Fri,True,09:00,09:30,True,48h before use,2025-11-26T09:30,True,48,48.0,0.0,4 of 4,True
+B-02919,R-115,Gym,Gym,True,Thu,Thu,True,16:00,16:15,True,30h before use,2025-11-26T10:15,True,30,30.0,0.0,4 of 4,True
+B-02920,R-049,Pool,Pool,True,Thu,Wed,False,19:00,19:30,True,8h before use,2025-11-26T11:30,True,8,8.0,0.0,3 of 4,False
+B-02921,R-015,Multipurpose Hall,Gym,False,Wed,Wed,True,20:00,20:00,True,2h before use,2025-11-26T16:00,True,2,4.0,2.0,3 of 4,False
+B-02922,R-093,Pool,Pool,True,Fri,Sat,False,10:00,17:00,False,72h before use,2025-11-26T17:00,True,72,72.0,0.0,2 of 4,False
+B-02923,R-052,Gym,Pool,False,Wed,Wed,True,09:00,21:15,False,2h before use,2025-11-26T19:15,True,2,2.0,0.0,2 of 4,False
+B-02924,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:00,True,72h before use,2025-11-26T21:00,True,72,72.0,0.0,4 of 4,True
+B-02925,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:00,True,72h before use,2025-11-26T21:00,True,72,72.0,0.0,4 of 4,True
+B-02926,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:00,True,72h before use,2025-11-26T21:00,True,72,72.0,0.0,4 of 4,True
+B-02927,R-121,Pool,Pool,True,Sat,Sat,True,09:00,09:00,True,48h before use,2025-11-27T09:00,True,48,48.0,0.0,4 of 4,True
+B-02928,R-009,Gym,Gym,True,Mon,Thu,False,21:00,17:00,False,2h before use,2025-11-27T15:00,True,2,2.0,0.0,2 of 4,False
+B-02929,R-104,Gym,Gym,True,Mon,Sun,False,17:00,18:30,False,72h before use,2025-11-27T18:30,True,72,72.0,0.0,2 of 4,False
+B-02930,R-047,Pool,Pool,True,Fri,Fri,True,06:00,06:30,True,8h before use,2025-11-27T22:30,True,8,8.0,0.0,4 of 4,True
+B-02931,R-001,Pool,Pool,True,Sun,Fri,False,10:00,10:15,True,18h before use,2025-11-28T06:15,True,18,4.0,14.0,3 of 4,False
+B-02932,R-012,Clubhouse,Clubhouse,True,Sun,Sun,True,19:00,19:30,True,18h before use,2025-11-28T07:30,False,18,60.0,42.0,3 of 4,False
+B-02933,R-133,Badminton,Clubhouse,False,Sun,Sun,True,08:00,08:00,True,48h before use,2025-11-28T08:00,True,48,48.0,0.0,3 of 4,False
+B-02934,R-019,Badminton,Pool,False,Sun,Sun,True,19:00,19:15,True,48h before use,2025-11-28T19:15,True,48,48.0,0.0,3 of 4,False
+B-02935,R-062,Pool,Pool,True,Mon,Sat,False,19:00,19:00,True,18h before use,2025-11-29T01:00,True,18,18.0,0.0,3 of 4,False
+B-02936,R-048,Multipurpose Hall,Multipurpose Hall,True,Sat,Sat,True,19:00,19:00,True,8h before use,2025-11-29T11:00,True,8,8.0,0.0,4 of 4,True
+B-02937,R-098,Gym,Clubhouse,False,Sat,Sat,True,19:00,19:30,True,8h before use,2025-11-29T11:30,True,8,8.0,0.0,3 of 4,False
+B-02938,R-014,Clubhouse,Clubhouse,True,Sat,Sat,True,16:00,16:15,True,2h before use,2025-11-29T14:15,True,2,2.0,0.0,4 of 4,True
+B-02939,R-139,Pool,Gym,False,Tue,Sun,False,09:00,09:30,True,18h before use,2025-11-29T15:30,True,18,18.0,0.0,2 of 4,False
+B-02940,R-128,Badminton,Badminton,True,Sat,Sat,True,18:00,18:15,True,2h before use,2025-11-29T16:15,True,2,2.0,0.0,4 of 4,True
+B-02941,R-046,Pool,Pool,True,Thu,Sat,False,20:00,20:15,True,2h before use,2025-11-29T16:15,True,2,4.0,2.0,3 of 4,False
+B-02942,R-039,Pool,Pool,True,Sat,Sat,True,18:00,18:45,True,2h before use,2025-11-29T16:45,True,2,2.0,0.0,4 of 4,True
+B-02943,R-011,Badminton,Pool,False,Fri,Sun,False,08:00,18:00,False,72h before use,2025-11-29T18:00,False,72,24.0,48.0,0 of 4,False
+B-02944,R-003,Gym,Gym,True,Mon,Mon,True,09:00,08:30,False,30h before use,2025-11-30T02:30,True,30,30.0,0.0,3 of 4,False
+B-02945,R-003,Gym,Gym,True,Mon,Mon,True,09:00,09:15,True,30h before use,2025-11-30T03:15,True,30,30.0,0.0,4 of 4,True
+B-02946,R-003,Gym,Gym,True,Mon,Mon,True,09:00,09:45,True,30h before use,2025-11-30T03:45,True,30,30.0,0.0,4 of 4,True
+B-02947,R-056,Badminton,Badminton,True,Sun,Sun,True,06:00,06:30,True,30h before use,2025-11-30T05:30,False,30,1.0,29.0,3 of 4,False
+B-02948,R-030,Gym,Gym,True,Tue,Tue,True,06:00,06:30,True,48h before use,2025-11-30T06:30,True,48,48.0,0.0,4 of 4,True
+B-02949,R-029,Gym,Gym,True,Wed,Wed,True,08:00,08:00,True,72h before use,2025-11-30T08:00,True,72,72.0,0.0,4 of 4,True
+B-02950,R-008,Pool,Gym,False,Sun,Sun,True,21:00,18:00,False,8h before use,2025-11-30T10:00,True,8,8.0,0.0,2 of 4,False
+B-02951,R-021,Gym,Clubhouse,False,Wed,Sun,False,16:00,18:15,False,8h before use,2025-11-30T10:15,True,8,8.0,0.0,1 of 4,False
+B-02952,R-115,Gym,Gym,True,Thu,Sun,False,16:00,16:00,True,30h before use,2025-11-30T12:00,False,30,4.0,26.0,2 of 4,False
+B-02953,R-008,Pool,Pool,True,Sun,Sun,True,21:00,21:00,True,8h before use,2025-11-30T13:00,True,8,8.0,0.0,4 of 4,True
+B-02954,R-010,Gym,Pool,False,Mon,Mon,True,19:00,19:00,True,30h before use,2025-11-30T13:00,True,30,30.0,0.0,3 of 4,False
+B-02955,R-010,Gym,Gym,True,Mon,Mon,True,19:00,20:00,False,30h before use,2025-11-30T14:00,True,30,30.0,0.0,3 of 4,False
+B-02956,R-016,Clubhouse,Clubhouse,True,Tue,Tue,True,07:00,17:00,False,48h before use,2025-11-30T17:00,True,48,48.0,0.0,3 of 4,False
+B-02957,R-033,Badminton,Badminton,True,Sun,Wed,False,10:00,17:30,False,72h before use,2025-11-30T17:30,True,72,72.0,0.0,2 of 4,False
+B-02958,R-030,Gym,Gym,True,Tue,Tue,True,06:00,18:15,False,48h before use,2025-11-30T18:15,True,48,48.0,0.0,3 of 4,False
+B-02959,R-024,Pool,Pool,True,Wed,Wed,True,18:00,18:15,True,72h before use,2025-11-30T18:15,True,72,72.0,0.0,4 of 4,True
+B-02960,R-024,Pool,Pool,True,Wed,Wed,True,18:00,18:45,True,72h before use,2025-11-30T18:45,True,72,72.0,0.0,4 of 4,True
+B-02961,R-029,Gym,Gym,True,Wed,Wed,True,08:00,19:30,False,72h before use,2025-11-30T19:30,True,72,72.0,0.0,3 of 4,False
+B-02962,R-089,Pool,Pool,True,Wed,Wed,True,07:00,08:00,False,18h before use,2025-11-30T20:00,False,18,60.0,42.0,2 of 4,False
+B-02963,R-111,Badminton,Badminton,True,Mon,Mon,True,19:00,19:45,True,18h before use,2025-12-01T01:45,True,18,18.0,0.0,4 of 4,True
+B-02964,R-018,Gym,Gym,True,Mon,Mon,True,10:00,10:00,True,8h before use,2025-12-01T02:00,True,8,8.0,0.0,4 of 4,True
+B-02965,R-132,Badminton,Badminton,True,Mon,Mon,True,21:00,21:30,True,18h before use,2025-12-01T03:30,True,18,18.0,0.0,4 of 4,True
+B-02966,R-086,Badminton,Badminton,True,Thu,Thu,True,07:00,07:00,True,72h before use,2025-12-01T07:00,True,72,72.0,0.0,4 of 4,True
+B-02967,R-009,Gym,Gym,True,Mon,Mon,True,21:00,09:30,False,2h before use,2025-12-01T07:30,True,2,2.0,0.0,3 of 4,False
+B-02968,R-086,Badminton,Badminton,True,Thu,Thu,True,07:00,07:30,True,72h before use,2025-12-01T07:30,True,72,72.0,0.0,4 of 4,True
+B-02969,R-025,Gym,Gym,True,Tue,Tue,True,10:00,10:15,True,18h before use,2025-12-01T16:15,True,18,18.0,0.0,4 of 4,True
+B-02970,R-009,Gym,Gym,True,Mon,Mon,True,21:00,21:00,True,2h before use,2025-12-01T19:00,True,2,2.0,0.0,4 of 4,True
+B-02971,R-053,Gym,Badminton,False,Fri,Thu,False,21:00,19:00,False,72h before use,2025-12-01T19:00,True,72,72.0,0.0,1 of 4,False
+B-02972,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,07:00,False,72h before use,2025-12-02T07:00,True,72,96.0,24.0,3 of 4,False
+B-02973,R-006,Pool,Pool,True,Fri,Tue,False,06:00,18:00,False,8h before use,2025-12-02T10:00,True,8,8.0,0.0,2 of 4,False
+B-02974,R-033,Badminton,Gym,False,Sun,Sat,False,10:00,10:30,True,72h before use,2025-12-02T10:30,True,72,96.0,24.0,2 of 4,False
+B-02975,R-106,Gym,Gym,True,Tue,Tue,True,09:00,20:15,False,8h before use,2025-12-02T12:15,True,8,8.0,0.0,3 of 4,False
+B-02976,R-002,Gym,Gym,True,Sun,Fri,False,19:00,19:15,True,72h before use,2025-12-02T19:15,True,72,72.0,0.0,3 of 4,False
+B-02977,R-052,Gym,Gym,True,Wed,Wed,True,09:00,06:00,False,2h before use,2025-12-03T04:00,True,2,2.0,0.0,3 of 4,False
+B-02978,R-015,Multipurpose Hall,Multipurpose Hall,True,Wed,Wed,True,20:00,20:00,True,2h before use,2025-12-03T18:00,True,2,2.0,0.0,4 of 4,True
+B-02979,R-015,Multipurpose Hall,Multipurpose Hall,True,Wed,Wed,True,20:00,20:00,True,2h before use,2025-12-03T18:00,True,2,2.0,0.0,4 of 4,True
+B-02980,R-035,Gym,Gym,True,Sat,Sat,True,09:00,09:00,True,8h before use,2025-12-03T21:00,False,8,60.0,52.0,3 of 4,False
+B-02981,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:00,True,72h before use,2025-12-03T21:00,True,72,72.0,0.0,4 of 4,True
+B-02982,R-032,Gym,Gym,True,Thu,Thu,True,07:00,07:00,True,72h before use,2025-12-04T06:00,False,72,1.0,71.0,3 of 4,False
+B-02983,R-002,Gym,Gym,True,Sun,Sun,True,19:00,06:00,False,72h before use,2025-12-04T06:00,True,72,72.0,0.0,3 of 4,False
+B-02984,R-050,Pool,Pool,True,Thu,Thu,True,18:00,10:15,False,2h before use,2025-12-04T08:15,True,2,2.0,0.0,3 of 4,False
+B-02985,R-088,Gym,Gym,True,Fri,Sun,False,16:00,10:30,False,72h before use,2025-12-04T10:30,True,72,72.0,0.0,2 of 4,False
+B-02986,R-002,Gym,Gym,True,Sun,Sun,True,19:00,19:30,True,72h before use,2025-12-04T19:30,True,72,72.0,0.0,4 of 4,True
+B-02987,R-042,Pool,Pool,True,Sat,Sat,True,20:00,20:00,True,48h before use,2025-12-04T20:00,True,48,48.0,0.0,4 of 4,True
+B-02988,R-133,Badminton,Badminton,True,Sun,Sun,True,08:00,08:00,True,48h before use,2025-12-05T08:00,True,48,48.0,0.0,4 of 4,True
+B-02989,R-101,Gym,Gym,True,Thu,Sat,False,17:00,17:00,True,30h before use,2025-12-05T11:00,True,30,30.0,0.0,3 of 4,False
+B-02990,R-092,Gym,Clubhouse,False,Sat,Sat,True,21:00,21:45,True,30h before use,2025-12-05T15:45,True,30,30.0,0.0,3 of 4,False
+B-02991,R-061,Gym,Gym,True,Fri,Fri,True,20:00,20:15,True,30h before use,2025-12-05T16:15,False,30,4.0,26.0,3 of 4,False
+B-02992,R-019,Badminton,Badminton,True,Sun,Sun,True,19:00,19:45,True,48h before use,2025-12-05T19:45,True,48,48.0,0.0,4 of 4,True
+B-02993,R-067,Gym,Clubhouse,False,Tue,Tue,True,07:00,10:45,False,72h before use,2025-12-06T10:45,True,72,72.0,0.0,2 of 4,False
+B-02994,R-037,Clubhouse,Clubhouse,True,Mon,Mon,True,18:00,19:00,False,48h before use,2025-12-06T19:00,True,48,48.0,0.0,3 of 4,False
+B-02995,R-007,Clubhouse,Clubhouse,True,Tue,Tue,True,08:00,08:15,True,72h before use,2025-12-06T20:15,True,72,60.0,12.0,4 of 4,True
+B-02996,R-022,Gym,Gym,True,Fri,Wed,False,20:00,20:15,True,24h before use,2025-12-06T20:15,False,24,96.0,72.0,2 of 4,False
+B-02997,R-021,Gym,Gym,True,Wed,Sun,False,16:00,06:00,False,8h before use,2025-12-06T22:00,True,8,8.0,0.0,2 of 4,False
+B-02998,R-047,Pool,Pool,True,Fri,Sun,False,06:00,06:30,True,8h before use,2025-12-06T22:30,True,8,8.0,0.0,3 of 4,False
+B-02999,R-011,Badminton,Badminton,True,Fri,Sun,False,08:00,07:00,False,72h before use,2025-12-07T03:00,False,72,4.0,68.0,1 of 4,False
+B-03000,R-001,Pool,Pool,True,Sun,Sun,True,10:00,21:30,False,18h before use,2025-12-07T03:30,True,18,18.0,0.0,3 of 4,False
+B-03001,R-018,Gym,Gym,True,Mon,Sun,False,10:00,17:00,False,8h before use,2025-12-07T09:00,True,8,8.0,0.0,2 of 4,False
+B-03002,R-050,Pool,Clubhouse,False,Thu,Sun,False,18:00,18:00,True,2h before use,2025-12-07T16:00,True,2,2.0,0.0,2 of 4,False
+B-03003,R-013,Gym,Multipurpose Hall,False,Wed,Sun,False,20:00,20:00,True,2h before use,2025-12-07T18:00,True,2,2.0,0.0,2 of 4,False
+B-03004,R-069,Gym,Gym,True,Tue,Tue,True,19:00,19:00,True,48h before use,2025-12-07T19:00,True,48,48.0,0.0,4 of 4,True
+B-03005,R-062,Pool,Pool,True,Mon,Mon,True,19:00,19:45,True,18h before use,2025-12-08T01:45,True,18,18.0,0.0,4 of 4,True
+B-03006,R-122,Clubhouse,Clubhouse,True,Mon,Mon,True,21:00,21:00,True,18h before use,2025-12-08T03:00,True,18,18.0,0.0,4 of 4,True
+B-03007,R-010,Gym,Gym,True,Mon,Mon,True,19:00,10:15,False,30h before use,2025-12-08T06:15,False,30,4.0,26.0,2 of 4,False
+B-03008,R-100,Gym,Gym,True,Sun,Tue,False,17:00,17:00,True,30h before use,2025-12-08T11:00,True,30,30.0,0.0,3 of 4,False
+B-03009,R-073,Gym,Multipurpose Hall,False,Fri,Mon,False,19:00,18:30,False,18h before use,2025-12-08T14:30,True,18,4.0,14.0,1 of 4,False
+B-03010,R-046,Pool,Pool,True,Thu,Mon,False,20:00,20:00,True,2h before use,2025-12-08T18:00,True,2,2.0,0.0,3 of 4,False
+B-03011,R-024,Pool,Pool,True,Wed,Thu,False,18:00,18:30,True,72h before use,2025-12-08T18:30,True,72,72.0,0.0,3 of 4,False
+B-03012,R-009,Gym,Badminton,False,Mon,Mon,True,21:00,21:00,True,2h before use,2025-12-08T19:00,True,2,2.0,0.0,3 of 4,False
+B-03013,R-009,Gym,Gym,True,Mon,Mon,True,21:00,21:00,True,2h before use,2025-12-08T19:00,True,2,2.0,0.0,4 of 4,True
+B-03014,R-099,Multipurpose Hall,Multipurpose Hall,True,Thu,Thu,True,18:00,19:00,False,72h before use,2025-12-08T19:00,True,72,72.0,0.0,3 of 4,False
+B-03015,R-010,Gym,Gym,True,Mon,Tue,False,19:00,19:15,True,30h before use,2025-12-08T19:15,True,30,24.0,6.0,3 of 4,False
+B-03016,R-003,Gym,Gym,True,Mon,Wed,False,09:00,09:15,True,30h before use,2025-12-09T03:15,True,30,30.0,0.0,3 of 4,False
+B-03017,R-007,Clubhouse,Clubhouse,True,Tue,Tue,True,08:00,08:00,True,72h before use,2025-12-09T04:00,False,72,4.0,68.0,3 of 4,False
+B-03018,R-055,Multipurpose Hall,Gym,False,Fri,Wed,False,09:00,09:00,True,2h before use,2025-12-09T09:00,True,2,24.0,22.0,2 of 4,False
+B-03019,R-038,Gym,Gym,True,Thu,Thu,True,09:00,09:15,True,48h before use,2025-12-09T09:15,True,48,48.0,0.0,4 of 4,True
+B-03020,R-004,Clubhouse,Clubhouse,True,Thu,Thu,True,10:00,18:00,False,48h before use,2025-12-09T18:00,True,48,48.0,0.0,3 of 4,False
+B-03021,R-024,Pool,Pool,True,Wed,Wed,True,18:00,18:15,True,72h before use,2025-12-10T06:15,False,72,12.0,60.0,3 of 4,False
+B-03022,R-093,Pool,Pool,True,Fri,Fri,True,10:00,19:45,False,72h before use,2025-12-10T07:45,True,72,60.0,12.0,3 of 4,False
+B-03023,R-021,Gym,Gym,True,Wed,Wed,True,16:00,16:15,True,8h before use,2025-12-10T08:15,True,8,8.0,0.0,4 of 4,True
+B-03024,R-034,Multipurpose Hall,Multipurpose Hall,True,Thu,Thu,True,07:00,10:30,False,48h before use,2025-12-10T10:30,True,48,24.0,24.0,3 of 4,False
+B-03025,R-031,Gym,Pool,False,Wed,Wed,True,16:00,16:15,True,2h before use,2025-12-10T14:15,True,2,2.0,0.0,3 of 4,False
+B-03026,R-013,Gym,Gym,True,Wed,Wed,True,20:00,20:45,True,2h before use,2025-12-10T18:45,True,2,2.0,0.0,4 of 4,True
+B-03027,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:45,True,72h before use,2025-12-10T21:45,True,72,72.0,0.0,4 of 4,True
+B-03028,R-057,Pool,Multipurpose Hall,False,Sun,Sun,True,09:00,09:00,True,72h before use,2025-12-11T09:00,True,72,72.0,0.0,3 of 4,False
+B-03029,R-049,Pool,Pool,True,Thu,Thu,True,19:00,19:00,True,8h before use,2025-12-11T11:00,True,8,8.0,0.0,4 of 4,True
+B-03030,R-065,Gym,Gym,True,Tue,Thu,False,19:00,19:00,True,8h before use,2025-12-11T11:00,True,8,8.0,0.0,3 of 4,False
+B-03031,R-028,Pool,Pool,True,Sat,Thu,False,20:00,17:45,False,30h before use,2025-12-11T13:45,False,30,4.0,26.0,1 of 4,False
+B-03032,R-061,Gym,Gym,True,Fri,Fri,True,20:00,20:15,True,30h before use,2025-12-11T14:15,True,30,30.0,0.0,4 of 4,True
+B-03033,R-127,Badminton,Badminton,True,Mon,Sat,False,16:00,16:00,True,48h before use,2025-12-11T16:00,True,48,48.0,0.0,3 of 4,False
+B-03034,R-022,Gym,Gym,True,Fri,Thu,False,20:00,20:30,True,24h before use,2025-12-11T19:30,True,24,1.0,23.0,3 of 4,False
+B-03035,R-006,Pool,Pool,True,Fri,Fri,True,06:00,06:00,True,8h before use,2025-12-11T22:00,True,8,8.0,0.0,4 of 4,True
+B-03036,R-022,Gym,Gym,True,Fri,Fri,True,20:00,21:00,False,18h before use,2025-12-12T03:00,True,18,18.0,0.0,3 of 4,False
+B-03037,R-140,Clubhouse,Clubhouse,True,Sat,Sat,True,16:00,16:15,True,30h before use,2025-12-12T10:15,True,30,30.0,0.0,4 of 4,True
+B-03038,R-020,Pool,Pool,True,Tue,Tue,True,10:00,10:45,True,72h before use,2025-12-12T10:45,True,72,96.0,24.0,4 of 4,True
+B-03039,R-027,Badminton,Badminton,True,Fri,Fri,True,21:00,21:00,True,8h before use,2025-12-12T13:00,True,8,8.0,0.0,4 of 4,True
+B-03040,R-027,Badminton,Badminton,True,Fri,Fri,True,21:00,21:00,True,8h before use,2025-12-12T13:00,True,8,8.0,0.0,4 of 4,True
+B-03041,R-081,Pool,Pool,True,Fri,Fri,True,17:00,21:15,False,8h before use,2025-12-12T13:15,True,8,8.0,0.0,3 of 4,False
+B-03042,R-028,Pool,Pool,True,Sat,Sat,True,20:00,20:00,True,30h before use,2025-12-12T14:00,True,30,30.0,0.0,4 of 4,True
+B-03043,R-054,Gym,Gym,True,Mon,Mon,True,18:00,18:30,True,72h before use,2025-12-12T18:30,True,72,72.0,0.0,4 of 4,True
+B-03044,R-019,Badminton,Badminton,True,Sun,Sun,True,19:00,19:00,True,48h before use,2025-12-12T19:00,True,48,48.0,0.0,4 of 4,True
+B-03045,R-066,Multipurpose Hall,Multipurpose Hall,True,Sun,Sun,True,10:00,10:15,True,30h before use,2025-12-13T04:15,True,30,30.0,0.0,4 of 4,True
+B-03046,R-119,Badminton,Badminton,True,Mon,Tue,False,06:00,06:30,True,72h before use,2025-12-13T06:30,True,72,72.0,0.0,3 of 4,False
+B-03047,R-048,Multipurpose Hall,Multipurpose Hall,True,Sat,Sat,True,19:00,19:00,True,8h before use,2025-12-13T07:00,True,8,12.0,4.0,4 of 4,True
+B-03048,R-041,Pool,Pool,True,Sun,Sun,True,09:00,09:00,True,18h before use,2025-12-13T15:00,True,18,18.0,0.0,4 of 4,True
+B-03049,R-026,Gym,Gym,True,Sat,Sat,True,18:00,17:45,False,2h before use,2025-12-13T15:45,True,2,2.0,0.0,3 of 4,False
+B-03050,R-026,Gym,Gym,True,Sat,Sat,True,18:00,18:00,True,2h before use,2025-12-13T16:00,True,2,2.0,0.0,4 of 4,True
+B-03051,R-026,Gym,Gym,True,Sat,Sat,True,18:00,18:15,True,2h before use,2025-12-13T16:15,True,2,2.0,0.0,4 of 4,True
+B-03052,R-026,Gym,Gym,True,Sat,Sat,True,18:00,18:45,True,2h before use,2025-12-13T16:45,True,2,2.0,0.0,4 of 4,True
+B-03053,R-026,Gym,Gym,True,Sat,Sat,True,18:00,18:45,True,2h before use,2025-12-13T16:45,True,2,2.0,0.0,4 of 4,True
+B-03054,R-039,Pool,Pool,True,Sat,Sat,True,18:00,18:45,True,2h before use,2025-12-13T16:45,True,2,2.0,0.0,4 of 4,True
+B-03055,R-095,Gym,Gym,True,Tue,Wed,False,16:00,18:30,False,72h before use,2025-12-13T18:30,True,72,96.0,24.0,2 of 4,False
+B-03056,R-002,Gym,Gym,True,Sun,Tue,False,19:00,20:45,False,72h before use,2025-12-13T20:45,True,72,72.0,0.0,2 of 4,False
+B-03057,R-012,Clubhouse,Clubhouse,True,Sun,Sun,True,19:00,19:45,True,18h before use,2025-12-14T01:45,True,18,18.0,0.0,4 of 4,True
+B-03058,R-003,Gym,Gym,True,Mon,Mon,True,09:00,09:00,True,30h before use,2025-12-14T03:00,True,30,30.0,0.0,4 of 4,True
+B-03059,R-017,Gym,Gym,True,Tue,Tue,True,19:00,17:15,False,18h before use,2025-12-14T05:15,False,18,60.0,42.0,2 of 4,False
+B-03060,R-108,Pool,Pool,True,Mon,Mon,True,10:00,06:30,False,48h before use,2025-12-14T06:30,True,48,24.0,24.0,3 of 4,False
+B-03061,R-030,Gym,Gym,True,Tue,Tue,True,06:00,06:30,True,48h before use,2025-12-14T06:30,True,48,48.0,0.0,4 of 4,True
+B-03062,R-039,Pool,Badminton,False,Sat,Sun,False,18:00,09:30,False,2h before use,2025-12-14T07:30,True,2,2.0,0.0,1 of 4,False
+B-03063,R-016,Clubhouse,Pool,False,Tue,Tue,True,07:00,07:45,True,48h before use,2025-12-14T07:45,True,48,48.0,0.0,3 of 4,False
+B-03064,R-064,Badminton,Badminton,True,Wed,Sun,False,16:00,10:30,False,18h before use,2025-12-14T09:30,True,18,1.0,17.0,2 of 4,False
+B-03065,R-020,Pool,Pool,True,Tue,Wed,False,10:00,10:00,True,72h before use,2025-12-14T10:00,True,72,72.0,0.0,3 of 4,False
+B-03066,R-087,Badminton,Badminton,True,Sun,Sun,True,10:00,18:45,False,8h before use,2025-12-14T10:45,True,8,8.0,0.0,3 of 4,False
+B-03067,R-024,Pool,Gym,False,Wed,Wed,True,18:00,18:45,True,72h before use,2025-12-14T18:45,True,72,72.0,0.0,3 of 4,False
+B-03068,R-003,Gym,Gym,True,Mon,Mon,True,09:00,08:00,False,30h before use,2025-12-14T20:00,True,30,12.0,18.0,3 of 4,False
+B-03069,R-072,Badminton,Clubhouse,False,Tue,Tue,True,21:00,21:00,True,48h before use,2025-12-14T21:00,True,48,48.0,0.0,3 of 4,False
+B-03070,R-018,Gym,Gym,True,Mon,Mon,True,10:00,10:15,True,8h before use,2025-12-14T22:15,True,8,12.0,4.0,4 of 4,True
+B-03071,R-111,Badminton,Multipurpose Hall,False,Mon,Mon,True,19:00,19:15,True,18h before use,2025-12-15T01:15,True,18,18.0,0.0,3 of 4,False
+B-03072,R-018,Gym,Gym,True,Mon,Mon,True,10:00,10:00,True,8h before use,2025-12-15T02:00,True,8,8.0,0.0,4 of 4,True
+B-03073,R-122,Clubhouse,Badminton,False,Mon,Mon,True,21:00,21:00,True,18h before use,2025-12-15T03:00,True,18,18.0,0.0,3 of 4,False
+B-03074,R-032,Gym,Gym,True,Thu,Thu,True,07:00,07:00,True,72h before use,2025-12-15T07:00,True,72,72.0,0.0,4 of 4,True
+B-03075,R-045,Gym,Multipurpose Hall,False,Tue,Tue,True,09:00,09:15,True,18h before use,2025-12-15T15:15,True,18,18.0,0.0,3 of 4,False
+B-03076,R-017,Gym,Gym,True,Tue,Tue,True,19:00,19:30,True,18h before use,2025-12-16T01:30,True,18,18.0,0.0,4 of 4,True
+B-03077,R-022,Gym,Gym,True,Fri,Tue,False,20:00,20:00,True,18h before use,2025-12-16T02:00,True,18,18.0,0.0,3 of 4,False
+B-03078,R-130,Pool,Pool,True,Fri,Fri,True,07:00,07:15,True,72h before use,2025-12-16T07:15,True,72,72.0,0.0,4 of 4,True
+B-03079,R-072,Badminton,Badminton,True,Tue,Tue,True,21:00,21:00,True,48h before use,2025-12-16T09:00,False,48,12.0,36.0,3 of 4,False
+B-03080,R-109,Badminton,Badminton,True,Fri,Fri,True,10:00,10:15,True,72h before use,2025-12-16T10:15,True,72,72.0,0.0,4 of 4,True
+B-03081,R-093,Pool,Pool,True,Fri,Fri,True,10:00,10:30,True,72h before use,2025-12-16T10:30,True,72,72.0,0.0,4 of 4,True
+B-03082,R-036,Pool,Pool,True,Wed,Wed,True,20:00,20:00,True,8h before use,2025-12-16T20:00,True,8,24.0,16.0,4 of 4,True
+B-03083,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:00,True,72h before use,2025-12-16T21:00,True,72,96.0,24.0,4 of 4,True
+B-03084,R-021,Gym,Badminton,False,Wed,Wed,True,16:00,16:15,True,8h before use,2025-12-17T08:15,True,8,8.0,0.0,3 of 4,False
+B-03085,R-038,Gym,Gym,True,Thu,Thu,True,09:00,09:45,True,48h before use,2025-12-17T09:45,True,48,24.0,24.0,4 of 4,True
+B-03086,R-080,Badminton,Badminton,True,Wed,Wed,True,18:00,18:00,True,2h before use,2025-12-17T16:00,True,2,2.0,0.0,4 of 4,True
+B-03087,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:00,True,72h before use,2025-12-17T21:00,True,72,72.0,0.0,4 of 4,True
+B-03088,R-035,Gym,Gym,True,Sat,Sat,True,09:00,09:15,True,8h before use,2025-12-17T21:15,False,8,60.0,52.0,3 of 4,False
+B-03089,R-070,Gym,Gym,True,Wed,Thu,False,07:00,07:15,True,30h before use,2025-12-18T06:15,False,30,1.0,29.0,2 of 4,False
+B-03090,R-066,Multipurpose Hall,Gym,False,Sun,Fri,False,10:00,19:15,False,30h before use,2025-12-18T13:15,True,30,30.0,0.0,1 of 4,False
+B-03091,R-091,Gym,Badminton,False,Sun,Sat,False,20:00,20:00,True,48h before use,2025-12-18T20:00,True,48,48.0,0.0,2 of 4,False
+B-03092,R-052,Gym,Gym,True,Wed,Sun,False,09:00,09:00,True,2h before use,2025-12-18T21:00,False,2,60.0,58.0,2 of 4,False
+B-03093,R-006,Pool,Pool,True,Fri,Fri,True,06:00,06:15,True,8h before use,2025-12-18T22:15,True,8,8.0,0.0,4 of 4,True
+B-03094,R-109,Badminton,Pool,False,Fri,Fri,True,10:00,10:45,True,72h before use,2025-12-18T22:45,False,72,12.0,60.0,2 of 4,False
+B-03095,R-140,Clubhouse,Clubhouse,True,Sat,Sat,True,16:00,06:00,False,30h before use,2025-12-19T00:00,True,30,30.0,0.0,3 of 4,False
+B-03096,R-046,Pool,Pool,True,Thu,Fri,False,20:00,06:15,False,2h before use,2025-12-19T04:15,True,2,2.0,0.0,2 of 4,False
+B-03097,R-055,Multipurpose Hall,Multipurpose Hall,True,Fri,Fri,True,09:00,10:00,False,2h before use,2025-12-19T08:00,True,2,2.0,0.0,3 of 4,False
+B-03098,R-006,Pool,Pool,True,Fri,Fri,True,06:00,17:30,False,8h before use,2025-12-19T09:30,True,8,8.0,0.0,3 of 4,False
+B-03099,R-040,Multipurpose Hall,Pool,False,Sun,Fri,False,09:00,18:15,False,8h before use,2025-12-19T10:15,True,8,8.0,0.0,1 of 4,False
+B-03100,R-009,Gym,Clubhouse,False,Mon,Fri,False,21:00,21:00,True,2h before use,2025-12-19T19:00,True,2,2.0,0.0,2 of 4,False
+B-03101,R-070,Gym,Gym,True,Wed,Sun,False,07:00,07:00,True,30h before use,2025-12-20T01:00,True,30,30.0,0.0,3 of 4,False
+B-03102,R-022,Gym,Gym,True,Fri,Sat,False,20:00,20:00,True,18h before use,2025-12-20T02:00,True,18,18.0,0.0,3 of 4,False
+B-03103,R-059,Multipurpose Hall,Multipurpose Hall,True,Sat,Sat,True,19:00,08:00,False,2h before use,2025-12-20T06:00,True,2,2.0,0.0,3 of 4,False
+B-03104,R-007,Clubhouse,Clubhouse,True,Tue,Sat,False,08:00,09:45,False,72h before use,2025-12-20T08:45,False,72,1.0,71.0,1 of 4,False
+B-03105,R-020,Pool,Badminton,False,Tue,Tue,True,10:00,10:00,True,72h before use,2025-12-20T10:00,True,72,72.0,0.0,3 of 4,False
+B-03106,R-007,Clubhouse,Clubhouse,True,Tue,Tue,True,08:00,10:45,False,72h before use,2025-12-20T10:45,True,72,72.0,0.0,3 of 4,False
+B-03107,R-027,Badminton,Badminton,True,Fri,Sat,False,21:00,21:00,True,8h before use,2025-12-20T13:00,True,8,8.0,0.0,3 of 4,False
+B-03108,R-008,Pool,Pool,True,Sun,Sat,False,21:00,21:30,True,8h before use,2025-12-20T13:30,True,8,8.0,0.0,3 of 4,False
+B-03109,R-023,Gym,Gym,True,Mon,Sat,False,16:00,16:30,True,2h before use,2025-12-20T14:30,True,2,2.0,0.0,3 of 4,False
+B-03110,R-012,Clubhouse,Clubhouse,True,Sun,Sun,True,19:00,08:45,False,18h before use,2025-12-20T14:45,True,18,18.0,0.0,3 of 4,False
+B-03111,R-102,Gym,Gym,True,Sun,Sun,True,09:00,09:00,True,18h before use,2025-12-20T15:00,True,18,18.0,0.0,4 of 4,True
+B-03112,R-039,Pool,Pool,True,Sat,Sat,True,18:00,18:00,True,2h before use,2025-12-20T16:00,True,2,2.0,0.0,4 of 4,True
+B-03113,R-001,Pool,Pool,True,Sun,Sun,True,10:00,10:15,True,18h before use,2025-12-20T16:15,True,18,18.0,0.0,4 of 4,True
+B-03114,R-127,Badminton,Badminton,True,Mon,Mon,True,16:00,16:45,True,48h before use,2025-12-20T16:45,True,48,48.0,0.0,4 of 4,True
+B-03115,R-005,Clubhouse,Clubhouse,True,Sat,Sat,True,21:00,21:00,True,72h before use,2025-12-20T17:00,False,72,4.0,68.0,3 of 4,False
+B-03116,R-037,Clubhouse,Multipurpose Hall,False,Mon,Mon,True,18:00,18:00,True,48h before use,2025-12-20T18:00,True,48,48.0,0.0,3 of 4,False
+B-03117,R-028,Pool,Pool,True,Sat,Sun,False,20:00,20:00,True,30h before use,2025-12-20T20:00,True,30,24.0,6.0,3 of 4,False
+B-03118,R-019,Badminton,Badminton,True,Sun,Tue,False,19:00,06:45,False,48h before use,2025-12-21T06:45,True,48,48.0,0.0,2 of 4,False
+B-03119,R-030,Gym,Gym,True,Tue,Tue,True,06:00,06:45,True,48h before use,2025-12-21T06:45,True,48,48.0,0.0,4 of 4,True
+B-03120,R-027,Badminton,Pool,False,Fri,Sun,False,21:00,18:00,False,8h before use,2025-12-21T10:00,True,8,8.0,0.0,1 of 4,False
+B-03121,R-018,Gym,Gym,True,Mon,Mon,True,10:00,10:45,True,8h before use,2025-12-21T10:45,True,8,24.0,16.0,4 of 4,True
+B-03122,R-066,Multipurpose Hall,Pool,False,Sun,Mon,False,10:00,16:45,False,30h before use,2025-12-21T10:45,True,30,30.0,0.0,1 of 4,False
+B-03123,R-016,Clubhouse,Pool,False,Tue,Tue,True,07:00,16:00,False,48h before use,2025-12-21T16:00,True,48,48.0,0.0,2 of 4,False
+B-03124,R-126,Gym,Clubhouse,False,Mon,Mon,True,17:00,17:15,True,2h before use,2025-12-21T17:15,True,2,24.0,22.0,3 of 4,False
+B-03125,R-034,Multipurpose Hall,Pool,False,Thu,Sun,False,07:00,18:30,False,48h before use,2025-12-21T17:30,False,48,1.0,47.0,0 of 4,False
+B-03126,R-024,Pool,Pool,True,Wed,Wed,True,18:00,18:00,True,72h before use,2025-12-21T18:00,True,72,72.0,0.0,4 of 4,True
+B-03127,R-026,Gym,Badminton,False,Sat,Sun,False,18:00,20:45,False,2h before use,2025-12-21T18:45,True,2,2.0,0.0,1 of 4,False
+B-03128,R-069,Gym,Gym,True,Tue,Tue,True,19:00,19:30,True,48h before use,2025-12-21T19:30,True,48,48.0,0.0,4 of 4,True
+B-03129,R-072,Badminton,Badminton,True,Tue,Sun,False,21:00,21:00,True,48h before use,2025-12-21T20:00,False,48,1.0,47.0,2 of 4,False
+B-03130,R-112,Pool,Pool,True,Mon,Mon,True,06:00,17:45,False,18h before use,2025-12-21T23:45,True,18,18.0,0.0,3 of 4,False
+B-03131,R-032,Gym,Gym,True,Thu,Thu,True,07:00,07:15,True,72h before use,2025-12-22T07:15,True,72,72.0,0.0,4 of 4,True
+B-03132,R-086,Badminton,Badminton,True,Thu,Thu,True,07:00,07:45,True,72h before use,2025-12-22T07:45,True,72,72.0,0.0,4 of 4,True
+B-03133,R-106,Gym,Gym,True,Tue,Mon,False,09:00,18:30,False,8h before use,2025-12-22T14:30,True,8,4.0,4.0,2 of 4,False
+B-03134,R-045,Gym,Gym,True,Tue,Tue,True,09:00,09:00,True,18h before use,2025-12-22T15:00,True,18,18.0,0.0,4 of 4,True
+B-03135,R-017,Gym,Gym,True,Tue,Tue,True,19:00,09:45,False,18h before use,2025-12-22T15:45,True,18,18.0,0.0,3 of 4,False
+B-03136,R-051,Gym,Pool,False,Tue,Tue,True,06:00,06:15,True,30h before use,2025-12-22T18:15,True,30,12.0,18.0,3 of 4,False
+B-03137,R-085,Gym,Gym,True,Wed,Wed,True,20:00,20:15,True,48h before use,2025-12-22T20:15,True,48,48.0,0.0,4 of 4,True
+B-03138,R-051,Gym,Gym,True,Tue,Wed,False,06:00,06:00,True,30h before use,2025-12-23T00:00,True,30,30.0,0.0,3 of 4,False
+B-03139,R-017,Gym,Gym,True,Tue,Tue,True,19:00,19:15,True,18h before use,2025-12-23T01:15,True,18,18.0,0.0,4 of 4,True
+B-03140,R-105,Pool,Pool,True,Tue,Tue,True,18:00,06:30,False,2h before use,2025-12-23T04:30,True,2,2.0,0.0,3 of 4,False
+B-03141,R-139,Pool,Pool,True,Tue,Tue,True,09:00,08:30,False,18h before use,2025-12-23T04:30,True,18,4.0,14.0,3 of 4,False
+B-03142,R-076,Gym,Gym,True,Tue,Tue,True,17:00,17:00,True,48h before use,2025-12-23T05:00,False,48,12.0,36.0,3 of 4,False
+B-03143,R-088,Gym,Gym,True,Fri,Fri,True,16:00,07:00,False,72h before use,2025-12-23T07:00,True,72,72.0,0.0,3 of 4,False
+B-03144,R-034,Multipurpose Hall,Pool,False,Thu,Thu,True,07:00,07:45,True,48h before use,2025-12-23T07:45,True,48,48.0,0.0,3 of 4,False
+B-03145,R-004,Clubhouse,Clubhouse,True,Thu,Thu,True,10:00,10:30,True,48h before use,2025-12-23T10:30,True,48,48.0,0.0,4 of 4,True
+B-03146,R-042,Pool,Pool,True,Sat,Sat,True,20:00,18:15,False,48h before use,2025-12-23T18:15,False,48,96.0,48.0,2 of 4,False
+B-03147,R-053,Gym,Gym,True,Fri,Fri,True,21:00,21:00,True,72h before use,2025-12-23T21:00,True,72,72.0,0.0,4 of 4,True
+B-03148,R-064,Badminton,Pool,False,Wed,Wed,True,16:00,16:30,True,18h before use,2025-12-23T22:30,True,18,18.0,0.0,3 of 4,False
+B-03149,R-024,Pool,Gym,False,Wed,Wed,True,18:00,09:15,False,72h before use,2025-12-24T05:15,False,72,4.0,68.0,1 of 4,False
+B-03150,R-052,Gym,Gym,True,Wed,Wed,True,09:00,09:00,True,2h before use,2025-12-24T07:00,True,2,2.0,0.0,4 of 4,True
+B-03151,R-013,Gym,Gym,True,Wed,Wed,True,20:00,09:15,False,2h before use,2025-12-24T07:15,True,2,2.0,0.0,3 of 4,False
+B-03152,R-063,Gym,Gym,True,Sat,Sat,True,06:00,10:00,False,72h before use,2025-12-24T10:00,True,72,72.0,0.0,3 of 4,False
+B-03153,R-031,Gym,Gym,True,Wed,Wed,True,16:00,16:15,True,2h before use,2025-12-24T14:15,True,2,2.0,0.0,4 of 4,True
+B-03154,R-041,Pool,Pool,True,Sun,Thu,False,09:00,09:00,True,18h before use,2025-12-24T15:00,True,18,18.0,0.0,3 of 4,False
+B-03155,R-052,Gym,Gym,True,Wed,Wed,True,09:00,17:15,False,2h before use,2025-12-24T15:15,True,2,2.0,0.0,3 of 4,False
+B-03156,R-060,Gym,Gym,True,Fri,Thu,False,10:00,10:00,True,18h before use,2025-12-24T16:00,True,18,18.0,0.0,3 of 4,False
+B-03157,R-013,Gym,Gym,True,Wed,Wed,True,20:00,20:00,True,2h before use,2025-12-24T18:00,True,2,2.0,0.0,4 of 4,True
+B-03158,R-015,Multipurpose Hall,Multipurpose Hall,True,Wed,Wed,True,20:00,20:45,True,2h before use,2025-12-24T18:45,True,2,2.0,0.0,4 of 4,True
+B-03159,R-015,Multipurpose Hall,Multipurpose Hall,True,Wed,Wed,True,20:00,21:00,False,2h before use,2025-12-24T19:00,True,2,2.0,0.0,3 of 4,False
+B-03160,R-035,Gym,Gym,True,Sat,Sat,True,09:00,09:00,True,8h before use,2025-12-24T21:00,False,8,60.0,52.0,3 of 4,False
+B-03161,R-004,Clubhouse,Pool,False,Thu,Thu,True,10:00,10:45,True,48h before use,2025-12-24T22:45,False,48,12.0,36.0,2 of 4,False
+B-03162,R-027,Badminton,Badminton,True,Fri,Thu,False,21:00,21:30,True,8h before use,2025-12-25T13:30,True,8,8.0,0.0,3 of 4,False
+B-03163,R-060,Gym,Gym,True,Fri,Fri,True,10:00,10:15,True,18h before use,2025-12-25T16:15,True,18,18.0,0.0,4 of 4,True
+B-03164,R-016,Clubhouse,Clubhouse,True,Tue,Sat,False,07:00,18:00,False,48h before use,2025-12-25T18:00,True,48,48.0,0.0,2 of 4,False
+B-03165,R-042,Pool,Gym,False,Sat,Sat,True,20:00,20:45,True,48h before use,2025-12-25T20:45,True,48,48.0,0.0,3 of 4,False
+B-03166,R-006,Pool,Gym,False,Fri,Fri,True,06:00,06:00,True,8h before use,2025-12-25T22:00,True,8,8.0,0.0,3 of 4,False
+B-03167,R-040,Multipurpose Hall,Multipurpose Hall,True,Sun,Fri,False,09:00,09:00,True,8h before use,2025-12-26T01:00,True,8,8.0,0.0,3 of 4,False
+B-03168,R-054,Gym,Gym,True,Mon,Mon,True,18:00,10:00,False,72h before use,2025-12-26T10:00,True,72,72.0,0.0,3 of 4,False
+B-03169,R-027,Badminton,Badminton,True,Fri,Fri,True,21:00,21:15,True,8h before use,2025-12-26T13:15,True,8,8.0,0.0,4 of 4,True
+B-03170,R-140,Clubhouse,Pool,False,Sat,Sat,True,16:00,20:45,False,30h before use,2025-12-26T14:45,True,30,30.0,0.0,2 of 4,False
+B-03171,R-125,Gym,Pool,False,Fri,Sun,False,16:00,18:00,False,48h before use,2025-12-26T18:00,True,48,48.0,0.0,1 of 4,False
+B-03172,R-054,Gym,Gym,True,Mon,Mon,True,18:00,18:00,True,72h before use,2025-12-26T18:00,True,72,72.0,0.0,4 of 4,True
+B-03173,R-019,Badminton,Badminton,True,Sun,Sun,True,19:00,19:00,True,48h before use,2025-12-26T19:00,True,48,48.0,0.0,4 of 4,True
+B-03174,R-091,Gym,Gym,True,Sun,Sun,True,20:00,20:00,True,48h before use,2025-12-26T20:00,True,48,48.0,0.0,4 of 4,True
+B-03175,R-120,Gym,Gym,True,Mon,Mon,True,21:00,21:00,True,72h before use,2025-12-26T21:00,True,72,72.0,0.0,4 of 4,True
+B-03176,R-048,Multipurpose Hall,Multipurpose Hall,True,Sat,Sat,True,19:00,07:00,False,8h before use,2025-12-26T23:00,True,8,8.0,0.0,3 of 4,False
+B-03177,R-066,Multipurpose Hall,Multipurpose Hall,True,Sun,Sun,True,10:00,10:00,True,30h before use,2025-12-27T04:00,True,30,30.0,0.0,4 of 4,True
+B-03178,R-074,Pool,Pool,True,Sun,Sun,True,10:00,10:15,True,30h before use,2025-12-27T04:15,True,30,30.0,0.0,4 of 4,True
+B-03179,R-028,Pool,Multipurpose Hall,False,Sat,Sun,False,20:00,18:45,False,30h before use,2025-12-27T12:45,True,30,30.0,0.0,1 of 4,False
+B-03180,R-001,Pool,Pool,True,Sun,Sun,True,10:00,10:00,True,18h before use,2025-12-27T16:00,True,18,18.0,0.0,4 of 4,True
+B-03181,R-026,Gym,Gym,True,Sat,Sat,True,18:00,18:45,True,2h before use,2025-12-27T16:45,True,2,2.0,0.0,4 of 4,True
+B-03182,R-095,Gym,Gym,True,Tue,Tue,True,16:00,17:30,False,72h before use,2025-12-27T17:30,True,72,72.0,0.0,3 of 4,False
+B-03183,R-083,Gym,Gym,True,Sun,Sun,True,18:00,18:45,True,18h before use,2025-12-28T00:45,True,18,18.0,0.0,4 of 4,True
+B-03184,R-040,Multipurpose Hall,Multipurpose Hall,True,Sun,Sun,True,09:00,09:15,True,8h before use,2025-12-28T01:15,True,8,8.0,0.0,4 of 4,True
+B-03185,R-003,Gym,Gym,True,Mon,Mon,True,09:00,09:30,True,30h before use,2025-12-28T03:30,True,30,30.0,0.0,4 of 4,True
+B-03186,R-030,Gym,Gym,True,Tue,Tue,True,06:00,06:45,True,48h before use,2025-12-28T06:45,True,48,48.0,0.0,4 of 4,True
+B-03187,R-016,Clubhouse,Gym,False,Tue,Tue,True,07:00,07:00,True,48h before use,2025-12-28T07:00,True,48,48.0,0.0,3 of 4,False
+B-03188,R-008,Pool,Pool,True,Sun,Sun,True,21:00,21:45,True,8h before use,2025-12-28T13:45,True,8,8.0,0.0,4 of 4,True
+B-03189,R-072,Badminton,Badminton,True,Tue,Tue,True,21:00,16:15,False,48h before use,2025-12-28T16:15,True,48,48.0,0.0,3 of 4,False
+B-03190,R-001,Pool,Pool,True,Sun,Mon,False,10:00,10:30,True,18h before use,2025-12-28T16:30,True,18,18.0,0.0,3 of 4,False
+B-03191,R-097,Clubhouse,Clubhouse,True,Mon,Mon,True,18:00,08:00,False,72h before use,2025-12-29T04:00,False,72,4.0,68.0,2 of 4,False
+B-03192,R-048,Multipurpose Hall,Pool,False,Sat,Mon,False,19:00,19:45,True,8h before use,2025-12-29T11:45,True,8,8.0,0.0,2 of 4,False
+B-03193,R-010,Gym,Gym,True,Mon,Tue,False,19:00,19:00,True,30h before use,2025-12-29T13:00,True,30,30.0,0.0,3 of 4,False
+B-03194,R-017,Gym,Gym,True,Tue,Tue,True,19:00,07:15,False,18h before use,2025-12-29T13:15,True,18,18.0,0.0,3 of 4,False
+B-03195,R-126,Gym,Gym,True,Mon,Mon,True,17:00,17:45,True,2h before use,2025-12-29T15:45,True,2,2.0,0.0,4 of 4,True
+B-03196,R-025,Gym,Gym,True,Tue,Tue,True,10:00,10:30,True,18h before use,2025-12-29T16:30,True,18,18.0,0.0,4 of 4,True
+B-03197,R-084,Gym,Gym,True,Tue,Tue,True,10:00,10:30,True,18h before use,2025-12-29T16:30,True,18,18.0,0.0,4 of 4,True
+B-03198,R-006,Pool,Pool,True,Fri,Tue,False,06:00,06:30,True,8h before use,2025-12-29T22:30,True,8,8.0,0.0,3 of 4,False
+B-03199,R-105,Pool,Pool,True,Tue,Tue,True,18:00,08:00,False,2h before use,2025-12-30T06:00,True,2,2.0,0.0,3 of 4,False
+B-03200,R-065,Gym,Gym,True,Tue,Tue,True,19:00,19:00,True,8h before use,2025-12-30T11:00,True,8,8.0,0.0,4 of 4,True

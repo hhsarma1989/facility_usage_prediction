@@ -1,1 +1,20 @@
-
+{
+  "dataset_rows": 3200,
+  "training_rows": 2560,
+  "holdout_rows": 640,
+  "holdout_start_booking_timestamp": "2025-10-17T02:45",
+  "facility_accuracy": 0.8234,
+  "weekday_accuracy": 0.7078,
+  "hour_accuracy": 0.6828,
+  "hour_mae_hours": 2.09,
+  "notification_lead_mae_hours": 6.68,
+  "notification_within_24h_rate": 0.8969,
+  "four_output_exact_match_rate": 0.3906,
+  "per_output_match_rates": {
+    "facility": 0.8234,
+    "weekday": 0.7078,
+    "hour": 0.6828,
+    "notification_within_24h": 0.8969
+  },
+  "error_analysis": "Notification-time errors are assessed by predicted versus actual booking lead time (within 24 hours); the model predicts weekday rather than an exact usage date."
+}
